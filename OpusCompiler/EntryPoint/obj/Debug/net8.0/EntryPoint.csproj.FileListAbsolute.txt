@@ -1,0 +1,15 @@
+C:\Users\stasi\source\repos\Opus\OpusCompiler\EntryPoint\bin\Debug\net8.0\EntryPoint.exe
+C:\Users\stasi\source\repos\Opus\OpusCompiler\EntryPoint\bin\Debug\net8.0\EntryPoint.deps.json
+C:\Users\stasi\source\repos\Opus\OpusCompiler\EntryPoint\bin\Debug\net8.0\EntryPoint.runtimeconfig.json
+C:\Users\stasi\source\repos\Opus\OpusCompiler\EntryPoint\bin\Debug\net8.0\EntryPoint.dll
+C:\Users\stasi\source\repos\Opus\OpusCompiler\EntryPoint\bin\Debug\net8.0\EntryPoint.pdb
+C:\Users\stasi\source\repos\Opus\OpusCompiler\EntryPoint\obj\Debug\net8.0\EntryPoint.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\stasi\source\repos\Opus\OpusCompiler\EntryPoint\obj\Debug\net8.0\EntryPoint.AssemblyInfoInputs.cache
+C:\Users\stasi\source\repos\Opus\OpusCompiler\EntryPoint\obj\Debug\net8.0\EntryPoint.AssemblyInfo.cs
+C:\Users\stasi\source\repos\Opus\OpusCompiler\EntryPoint\obj\Debug\net8.0\EntryPoint.csproj.CoreCompileInputs.cache
+C:\Users\stasi\source\repos\Opus\OpusCompiler\EntryPoint\obj\Debug\net8.0\EntryPoint.sourcelink.json
+C:\Users\stasi\source\repos\Opus\OpusCompiler\EntryPoint\obj\Debug\net8.0\EntryPoint.dll
+C:\Users\stasi\source\repos\Opus\OpusCompiler\EntryPoint\obj\Debug\net8.0\refint\EntryPoint.dll
+C:\Users\stasi\source\repos\Opus\OpusCompiler\EntryPoint\obj\Debug\net8.0\EntryPoint.pdb
+C:\Users\stasi\source\repos\Opus\OpusCompiler\EntryPoint\obj\Debug\net8.0\EntryPoint.genruntimeconfig.cache
+C:\Users\stasi\source\repos\Opus\OpusCompiler\EntryPoint\obj\Debug\net8.0\ref\EntryPoint.dll

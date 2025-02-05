@@ -1,0 +1,64 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "AMD_x86/1.0.0": {
+        "dependencies": {
+          "Compiler": "1.0.0",
+          "Domain": "1.0.0"
+        },
+        "runtime": {
+          "AMD_x86.dll": {}
+        }
+      },
+      "BufferTable/1.0.0": {
+        "dependencies": {
+          "Domain": "1.0.0"
+        },
+        "runtime": {
+          "BufferTable.dll": {}
+        }
+      },
+      "Compiler/1.0.0": {
+        "dependencies": {
+          "BufferTable": "1.0.0",
+          "Domain": "1.0.0"
+        },
+        "runtime": {
+          "Compiler.dll": {}
+        }
+      },
+      "Domain/1.0.0": {
+        "runtime": {
+          "Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AMD_x86/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BufferTable/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Compiler/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
