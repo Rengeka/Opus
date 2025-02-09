@@ -8,6 +8,11 @@ public class LiteralToken : Token
     { 
         Type = type;
     }
+
+    public override Type GetTokenType()
+    {
+        return typeof(LiteralToken);
+    }
 }
 
 public enum LiteralType

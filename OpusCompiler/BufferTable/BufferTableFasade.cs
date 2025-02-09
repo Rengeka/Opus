@@ -1,4 +1,6 @@
-﻿namespace BufferTable;
+﻿using Domain;
+
+namespace BufferTable;
 
 public class BufferTableFasade
 {
@@ -6,8 +8,8 @@ public class BufferTableFasade
     private readonly MultifunctionalBufferTable _multifunctionalBufferTable;
     private readonly ReserveBufferTable _reserveBufferTable;
 
-    private RegisterBuffer _acummulatorBuffer;
-    private RegisterBuffer _outputBuffer;
+    private IBuffer _acummulatorBuffer;
+    private IBuffer _outputBuffer;
 
     public BufferTableFasade(
         ArgumentBufferTable argumentBufferTable,
@@ -19,7 +21,7 @@ public class BufferTableFasade
         _reserveBufferTable = reserveBufferTable;
     }
 
-    public RegisterBuffer GetOutputBuffer()
+    public IBuffer GetOutputBuffer()
     {
         if (_outputBuffer == null)
         {
@@ -29,7 +31,7 @@ public class BufferTableFasade
         return _outputBuffer;
     }
 
-    public RegisterBuffer GetAcummulatorBuffer()
+    public IBuffer GetAcummulatorBuffer()
     {
         if (_acummulatorBuffer == null)
         {
@@ -47,5 +49,10 @@ public class BufferTableFasade
     public void ResetArgumentCounter()
     {
         _argumentBufferTable.ResetCounter();
+    }
+
+    public IBuffer GetNextMultifunctionalBuffer()
+    {
+        return _multifunctionalBufferTable.GetNext();
     }
 }

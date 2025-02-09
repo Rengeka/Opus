@@ -1,2 +1,6 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿
+using CORuntime;
+
+var startup = new COStartUp();
+startup.Start();
+

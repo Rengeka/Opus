@@ -24,6 +24,19 @@
         "runtime": {
           "bin/placeholder/Domain.dll": {}
         }
+      },
+      "StateMachine/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/StateMachine.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/StateMachine.dll": {}
+        }
       }
     }
   },
@@ -37,12 +50,18 @@
       "type": "project",
       "path": "../Domain/Domain.csproj",
       "msbuildProject": "../Domain/Domain.csproj"
+    },
+    "StateMachine/1.0.0": {
+      "type": "project",
+      "path": "../StateMachine/StateMachine.csproj",
+      "msbuildProject": "../StateMachine/StateMachine.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
       "BufferTable >= 1.0.0",
-      "Domain >= 1.0.0"
+      "Domain >= 1.0.0",
+      "StateMachine >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -83,6 +102,9 @@
             },
             "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\Domain\\Domain.csproj": {
               "projectPath": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\Domain\\Domain.csproj"
+            },
+            "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\StateMachine\\StateMachine.csproj": {
+              "projectPath": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\StateMachine\\StateMachine.csproj"
             }
           }
         }

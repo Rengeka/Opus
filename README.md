@@ -18,16 +18,14 @@ AR5 - Argument 5 of function
 
 O - Output buffer
 
-
-
 Instructions list
 
 Ix00000000 - Do nothing
 Ix00000001 [v] - Load value v into next function argument buffer
 Ix00000002 - Reset numeration of function argument buffer
-Ix00000003 [v] - Load value v into multifunctional BF1
-Ix00000004 [v] - Load value v into multifunctional BF2
-Ix00000005 - Reset numeration of multifunctional buffer
+Ix00000003 [v] - Load value v into next multifunctional buffer
+
+
 Ix00000006 [v] - Push value v on top of the stack
 Ix00000007 - Pop value from stack
 Ix00000008 - Pop value from stack into next mulifunctional buffer
@@ -35,7 +33,7 @@ Ix00000009 - Pop value from stack into next function argument buffer
 Ix00000010 - Load value from multifunctional AC
 Ix0000000A - Load value from output buffer into stack 
 Ix0000000B - Load value from output buffer into next mulifunctional buffer
-
+Ix0000000C - Set call agreement
 Ix0000000D - Load value from output buffer into next function argument buffer
 Ix0000000E [n] - Load function argument n on top of the stack
 Ix0000000F [n] - Load function argument n into next mulifunctional buffer

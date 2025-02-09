@@ -1,11 +1,164 @@
 {
   "version": 3,
   "targets": {
-    "net8.0": {}
+    "net8.0": {
+      "AMD_x86/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Compiler": "1.0.0",
+          "Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/AMD_x86.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AMD_x86.dll": {}
+        }
+      },
+      "BufferTable/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BufferTable.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BufferTable.dll": {}
+        }
+      },
+      "Compiler/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "BufferTable": "1.0.0",
+          "Domain": "1.0.0",
+          "StateMachine": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Compiler.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Compiler.dll": {}
+        }
+      },
+      "CORuntime/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "AMD_x86": "1.0.0",
+          "BufferTable": "1.0.0",
+          "Compiler": "1.0.0",
+          "Lexer": "1.0.0",
+          "Parser": "1.0.0",
+          "StateMachine": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CORuntime.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CORuntime.dll": {}
+        }
+      },
+      "Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Domain.dll": {}
+        }
+      },
+      "Lexer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Lexer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Lexer.dll": {}
+        }
+      },
+      "Parser/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Lexer": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Parser.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Parser.dll": {}
+        }
+      },
+      "StateMachine/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/StateMachine.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/StateMachine.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "AMD_x86/1.0.0": {
+      "type": "project",
+      "path": "../AMD_x86/AMD_x86.csproj",
+      "msbuildProject": "../AMD_x86/AMD_x86.csproj"
+    },
+    "BufferTable/1.0.0": {
+      "type": "project",
+      "path": "../BufferTable/BufferTable.csproj",
+      "msbuildProject": "../BufferTable/BufferTable.csproj"
+    },
+    "Compiler/1.0.0": {
+      "type": "project",
+      "path": "../Compiler/Compiler.csproj",
+      "msbuildProject": "../Compiler/Compiler.csproj"
+    },
+    "CORuntime/1.0.0": {
+      "type": "project",
+      "path": "../CORuntime/CORuntime.csproj",
+      "msbuildProject": "../CORuntime/CORuntime.csproj"
+    },
+    "Domain/1.0.0": {
+      "type": "project",
+      "path": "../Domain/Domain.csproj",
+      "msbuildProject": "../Domain/Domain.csproj"
+    },
+    "Lexer/1.0.0": {
+      "type": "project",
+      "path": "../Lexer/Lexer.csproj",
+      "msbuildProject": "../Lexer/Lexer.csproj"
+    },
+    "Parser/1.0.0": {
+      "type": "project",
+      "path": "../Parser/Parser.csproj",
+      "msbuildProject": "../Parser/Parser.csproj"
+    },
+    "StateMachine/1.0.0": {
+      "type": "project",
+      "path": "../StateMachine/StateMachine.csproj",
+      "msbuildProject": "../StateMachine/StateMachine.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net8.0": []
+    "net8.0": [
+      "CORuntime >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\stasi\\.nuget\\packages\\": {},
@@ -39,7 +192,11 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\CORuntime\\CORuntime.csproj": {
+              "projectPath": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\CORuntime\\CORuntime.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

@@ -26,7 +26,8 @@
       "Compiler/1.0.0": {
         "dependencies": {
           "BufferTable": "1.0.0",
-          "Domain": "1.0.0"
+          "Domain": "1.0.0",
+          "StateMachine": "1.0.0"
         },
         "runtime": {
           "Compiler.dll": {}
@@ -35,6 +36,14 @@
       "Domain/1.0.0": {
         "runtime": {
           "Domain.dll": {}
+        }
+      },
+      "StateMachine/1.0.0": {
+        "dependencies": {
+          "Domain": "1.0.0"
+        },
+        "runtime": {
+          "StateMachine.dll": {}
         }
       }
     }
@@ -56,6 +65,11 @@
       "sha512": ""
     },
     "Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "StateMachine/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

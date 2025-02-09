@@ -6,11 +6,11 @@ namespace AMD_x86_Tests;
 
 public class AMD_x86_PUSH_imm16_32_Tests
 {
-    private readonly ICPUFasade _CPU;
+    private readonly ICPUFacade _CPU;
 
     public AMD_x86_PUSH_imm16_32_Tests()
     {
-        _CPU = new AMD_x86_Fasade();
+        _CPU = new AMD_x86_Facade();
     }
 
     [Fact]

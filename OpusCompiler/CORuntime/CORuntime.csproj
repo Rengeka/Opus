@@ -6,4 +6,13 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\AMD_x86\AMD_x86.csproj" />
+    <ProjectReference Include="..\BufferTable\BufferTable.csproj" />
+    <ProjectReference Include="..\Compiler\Compiler.csproj" />
+    <ProjectReference Include="..\Lexer\Lexer.csproj" />
+    <ProjectReference Include="..\Parser\Parser.csproj" />
+    <ProjectReference Include="..\StateMachine\StateMachine.csproj" />
+  </ItemGroup>
+
 </Project>

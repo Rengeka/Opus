@@ -8,4 +8,6 @@ public abstract class Token
     {
         Value = value;
     }
+
+    public abstract Type GetTokenType();
 }

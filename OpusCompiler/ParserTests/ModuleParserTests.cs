@@ -27,7 +27,27 @@ public class ModuleParserTests
         var result = moduleParser.ParseModules(tokens);
 
         // Assert
-        Assert.NotNull(result);
+        Assert.Equivalent(result.Count(), 3);
+    }
+
+    [Fact]
+    public void ParseStatements_ShouldBeEquivalent()
+    {
+        // Arrange
+        List<Token> tokens =
+            [
+            new InstructionToken("Ix00000000"),
+            new IdentifierToken("testName"),
+            new DirectiveToken("ret"),
+            new InstructionToken("Ix00000000"),
+            ];
+
+        var moduleParser = new ModuleParser();
+
+        // Act
+        var result = moduleParser.ParseStatements(tokens);
+
+        // Assert
         Assert.Equivalent(result.Count(), 3);
     }
 }
