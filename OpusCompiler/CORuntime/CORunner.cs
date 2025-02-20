@@ -3,6 +3,14 @@ using StateMachine;
 using System.Runtime.InteropServices;
 using Compiler;
 using Parser;
+using Domain.CallAgrements;
+using System.Diagnostics;
+
+using Serilog; // TODO Add logs
+using Tokens;
+using Domain;
+using System.Text;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace CORuntime;
 
@@ -17,6 +25,9 @@ public class CORunner
     const uint PAGE_EXECUTE_READWRITE = 0x40;   // Memory protection: executable, readable, writable
     const uint MEM_COMMIT = 0x1000;             // Commit memory
     const uint MEM_RELEASE = 0x8000;
+    const uint MEM_SIZE = 4096;                 // 4KB
+    const uint STRING_POOL_ADDRESS = 4000;
+    const uint MEM_RESERVE = 0x2000;
 
     const string ENTRY_POINT = "EntryPoint";
 
@@ -26,6 +37,13 @@ public class CORunner
 
     [DllImport("kernel32.dll", SetLastError = true)]
     static extern bool VirtualFree(IntPtr lpAddress, uint dwSize, uint dwFreeType);
+
+    // Call load functions in memory and only then call them :(
+    [DllImport("kernel32.dll", SetLastError = true)]
+    public static extern IntPtr GetProcAddress(IntPtr hModule, string lpProcName);
+
+    [DllImport("kernel32.dll", SetLastError = true)]
+    public static extern IntPtr LoadLibrary(string lpFileName);
 
     [UnmanagedFunctionPointer(CallingConvention.Cdecl)]
     delegate void MachineCodeFunction();
@@ -51,56 +69,84 @@ public class CORunner
 
         _moduleTable.AddModules(modules);
 
-        var entryPoint = _moduleTable.GetModule(ENTRY_POINT);
-
-        if (entryPoint != null)
-        {
-            var code = _compiler.COMPILE_MODULE(entryPoint.Item2);
-            Execute(code.Value);
-        }
-    }
-
-    private void Execute(byte[] code)
-    {
-        IntPtr codeBuffer = VirtualAlloc(IntPtr.Zero, (uint)code.Length, MEM_COMMIT, PAGE_EXECUTE_READWRITE);
+        IntPtr codeBuffer = VirtualAlloc(IntPtr.Zero, MEM_SIZE, MEM_COMMIT | MEM_RESERVE, PAGE_EXECUTE_READWRITE);
         if (codeBuffer == IntPtr.Zero)
         {
             throw new Exception("Failed to allocate memory");
         }
 
+        Tuple<ModuleState, List<Statement>> entryPoint;
+      
+        if (_moduleTable.TryGetModule(ENTRY_POINT, out entryPoint))
+        {
+            var strings = entryPoint.Item2
+            .SelectMany(s => s.Tokens.Where(t => t is LiteralToken token && token.Type == LiteralType.LString))
+            .Select(t => t.Value)
+            .ToArray();
+
+            _compiler.COMPILE_STRINGS(strings, codeBuffer, (int)STRING_POOL_ADDRESS);
+            var callAgreements = IDENTIFY_CALL_AGREEMENTS(entryPoint.Item2);
+
+            var code = _compiler.COMPILE_MODULE(entryPoint.Item2, callAgreements);
+
+            Execute(code.Value, codeBuffer);
+        }
+    }
+
+    private void Execute(byte[] code, IntPtr codeBuffer)
+    {
         Marshal.Copy(code, 0, codeBuffer, code.Length);
+
+        unsafe
+        {
+            // Convert the IntPtr to a pointer
+            byte* ptr = (byte*)codeBuffer.ToPointer();
+
+            // Create a Span from the pointer (use the correct size of the buffer)
+            Span<byte> bufferSpan = new Span<byte>(ptr, 4096);
+
+            // Print the contents of the memory
+            Console.WriteLine("Code buffer contents:");
+            for (int i = 0; i < bufferSpan.Length; i++)
+            {
+                Console.Write($"{bufferSpan[i]:X2} ");  // Print each byte as a hexadecimal value
+                if ((i + 1) % 16 == 0)  // Print a newline every 16 bytes
+                {
+                    Console.WriteLine();
+                }
+            }
+        }
 
         MachineCodeFunction func = 
             Marshal.GetDelegateForFunctionPointer<MachineCodeFunction>(codeBuffer);
+
         func();
 
         VirtualFree(codeBuffer, 0, MEM_RELEASE);
     }
 
-
-
-    /*public void Run()
+    private Queue<ICallAgreement> IDENTIFY_CALL_AGREEMENTS(List<Statement> statements)
     {
-        // Example machine code (e.g., a function that simply returns)
-        byte[] machineCode = { 0x90, 0x90, 0xC3 }; // NOP NOP RET instruction for x86/x64
+        var callAgreementQueue = new Queue<ICallAgreement>();
+        var stdCallAgreement = new STDOCallAgreement();
 
-        // Step 1: Allocate executable memory
-        IntPtr codeBuffer = VirtualAlloc(IntPtr.Zero, (uint)machineCode.Length, MEM_COMMIT, PAGE_EXECUTE_READWRITE);
-        if (codeBuffer == IntPtr.Zero)
+        foreach (var statement in statements)
         {
-            throw new Exception("Failed to allocate memory");
+            var tokens = statement.Tokens;
+            if (tokens[0] is DirectiveToken && tokens[0].Value == "call")
+            {
+                if (_moduleTable.ContainsModule(tokens[1].Value))
+                {
+                    callAgreementQueue.Enqueue(stdCallAgreement);
+                }
+                else
+                {
+                    var module = _externModuleTable.GetExternModule(tokens[1].Value);
+                    callAgreementQueue.Enqueue(module.CallAgreement);
+                }
+            }
         }
 
-        // Step 2: Copy the machine code into the allocated memory
-        Marshal.Copy(machineCode, 0, codeBuffer, machineCode.Length);
-
-        // Step 3: Create a delegate pointing to the machine code
-        MachineCodeFunction func = Marshal.GetDelegateForFunctionPointer<MachineCodeFunction>(codeBuffer);
-
-        // Step 4: Execute code
-        func();
-
-        // Step 5: Free the allocated memory
-        VirtualFree(codeBuffer, 0, MEM_RELEASE);
-    }*/
+        return callAgreementQueue;
+    }
 }

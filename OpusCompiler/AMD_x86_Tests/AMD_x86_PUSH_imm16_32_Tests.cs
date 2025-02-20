@@ -1,6 +1,7 @@
 using AMD_x86;
 using Domain;
 using BufferTable;
+using Domain.Buffers;
 
 namespace AMD_x86_Tests;
 
@@ -10,7 +11,7 @@ public class AMD_x86_PUSH_imm16_32_Tests
 
     public AMD_x86_PUSH_imm16_32_Tests()
     {
-        _CPU = new AMD_x86_Facade();
+        _CPU = new x86_Facade();
     }
 
     [Fact]

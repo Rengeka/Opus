@@ -1,4 +1,6 @@
-﻿namespace Tokens;
+﻿using Domain;
+
+namespace Tokens;
 
 public abstract class Token
 {
@@ -7,6 +9,11 @@ public abstract class Token
     public Token(string value)
     {
         Value = value;
+    }
+
+    public virtual IBuffer GetBuffer()
+    {
+        throw new NotImplementedException();
     }
 
     public abstract Type GetTokenType();

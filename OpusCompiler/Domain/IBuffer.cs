@@ -2,6 +2,5 @@
 
 public interface IBuffer
 {
-    public BufferType GetBufferType();
-    public byte GetValue();
+    public Object GetValue();
 }

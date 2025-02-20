@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "rc1lPPXNbs/gZKsDdr9JZxI/PqE/oqzz6mE9FLIF4pK0o1Hk++/xTcaIwKMbQp6PiAmku07NntlpaI6XdgVdBA==",
+  "dgSpecHash": "A2IGNHqsS++Cqg5tonV4GHF+kuW2jIV0s4pL9n6bfMpdJqEzzNXJxbmZYvKPHL92VJl/Cey3Wl1IIPdDCGDf/w==",
   "success": true,
   "projectFilePath": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\RunnerTests\\RunnerTests.csproj",
   "expectedPackageFiles": [
@@ -33,6 +33,7 @@
     "C:\\Users\\stasi\\.nuget\\packages\\runtime.ubuntu.14.04-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.ubuntu.14.04-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Users\\stasi\\.nuget\\packages\\runtime.ubuntu.16.04-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.ubuntu.16.04-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Users\\stasi\\.nuget\\packages\\runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
+    "C:\\Users\\stasi\\.nuget\\packages\\serilog\\4.2.0\\serilog.4.2.0.nupkg.sha512",
     "C:\\Users\\stasi\\.nuget\\packages\\system.appcontext\\4.3.0\\system.appcontext.4.3.0.nupkg.sha512",
     "C:\\Users\\stasi\\.nuget\\packages\\system.buffers\\4.3.0\\system.buffers.4.3.0.nupkg.sha512",
     "C:\\Users\\stasi\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",

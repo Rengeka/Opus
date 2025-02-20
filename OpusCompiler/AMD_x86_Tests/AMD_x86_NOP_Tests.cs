@@ -9,7 +9,7 @@ public class AMD_x86_NOP_Tests
 
     public AMD_x86_NOP_Tests()
     {
-        _CPU = new AMD_x86_Facade();
+        _CPU = new x86_Facade();
     }
 
     [Fact]

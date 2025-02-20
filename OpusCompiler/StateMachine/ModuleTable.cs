@@ -19,8 +19,13 @@ public class ModuleTable
         }
     }
 
-    public Tuple<ModuleState, List<Statement>> GetModule(string identifier)
+    public bool TryGetModule(string identifier, out Tuple<ModuleState, List<Statement>> module)
     {
-        return _moduleTable[identifier];
+        return _moduleTable.TryGetValue(identifier, out module);
+    }
+
+    public bool ContainsModule(string identifier)
+    {
+        return _moduleTable.ContainsKey(identifier);
     }
 }

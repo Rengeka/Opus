@@ -9,6 +9,8 @@ public class TokenizeDirectiveStrategy : ITokenizeStrategy
             "call",
             "extern",
             "ret",
+            "jmp",
+            "INT"
         ];
 
     public bool Tokenize(string str, out Token result)

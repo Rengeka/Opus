@@ -1,0 +1,1014 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3B423046-35AA-4206-B47E-3D1624060757}|CORuntime\\CORuntime.csproj|c:\\users\\stasi\\source\\repos\\opus\\opuscompiler\\coruntime\\codesample.ops||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{3B423046-35AA-4206-B47E-3D1624060757}|CORuntime\\CORuntime.csproj|solutionrelative:coruntime\\codesample.ops||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C941C349-AED6-4532-9085-1E941DFBD207}|Compiler\\Compiler.csproj|C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\compiler\\ocompiler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C941C349-AED6-4532-9085-1E941DFBD207}|Compiler\\Compiler.csproj|solutionrelative:compiler\\ocompiler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C941C349-AED6-4532-9085-1E941DFBD207}|Compiler\\Compiler.csproj|C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\compiler\\compilestrategies\\ix00000001.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C941C349-AED6-4532-9085-1E941DFBD207}|Compiler\\Compiler.csproj|solutionrelative:compiler\\compilestrategies\\ix00000001.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C941C349-AED6-4532-9085-1E941DFBD207}|Compiler\\Compiler.csproj|C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\compiler\\compilestrategies\\ix00000000.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C941C349-AED6-4532-9085-1E941DFBD207}|Compiler\\Compiler.csproj|solutionrelative:compiler\\compilestrategies\\ix00000000.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{554AD896-0DFE-4A87-BCBC-8696B8DAEC88}|StateMachine\\StateMachine.csproj|C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\statemachine\\externmoduletable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{554AD896-0DFE-4A87-BCBC-8696B8DAEC88}|StateMachine\\StateMachine.csproj|solutionrelative:statemachine\\externmoduletable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C941C349-AED6-4532-9085-1E941DFBD207}|Compiler\\Compiler.csproj|C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\compiler\\codesample.ops||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{C941C349-AED6-4532-9085-1E941DFBD207}|Compiler\\Compiler.csproj|solutionrelative:compiler\\codesample.ops||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99AE2420-DD19-4010-B5EE-22F144575C71}|BufferTable\\BufferTable.csproj|C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\buffertable\\buffertablefasade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99AE2420-DD19-4010-B5EE-22F144575C71}|BufferTable\\BufferTable.csproj|solutionrelative:buffertable\\buffertablefasade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEFDEB53-EDEE-47EA-9EA0-DF0946CDAB2D}|Domain\\Domain.csproj|C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\domain\\buffers\\literalbuffer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEFDEB53-EDEE-47EA-9EA0-DF0946CDAB2D}|Domain\\Domain.csproj|solutionrelative:domain\\buffers\\literalbuffer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B423046-35AA-4206-B47E-3D1624060757}|CORuntime\\CORuntime.csproj|C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\coruntime\\corunner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B423046-35AA-4206-B47E-3D1624060757}|CORuntime\\CORuntime.csproj|solutionrelative:coruntime\\corunner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B423046-35AA-4206-B47E-3D1624060757}|CORuntime\\CORuntime.csproj|C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\coruntime\\coruntime.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{3B423046-35AA-4206-B47E-3D1624060757}|CORuntime\\CORuntime.csproj|solutionrelative:coruntime\\coruntime.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C941C349-AED6-4532-9085-1E941DFBD207}|Compiler\\Compiler.csproj|C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\compiler\\compiler.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{C941C349-AED6-4532-9085-1E941DFBD207}|Compiler\\Compiler.csproj|solutionrelative:compiler\\compiler.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B423046-35AA-4206-B47E-3D1624060757}|CORuntime\\CORuntime.csproj|C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\coruntime\\costartup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B423046-35AA-4206-B47E-3D1624060757}|CORuntime\\CORuntime.csproj|solutionrelative:coruntime\\costartup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C65F09E-471A-4B9A-B580-FB301D09D7DD}|Lexer\\Lexer.csproj|C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\lexer\\tokenizer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C65F09E-471A-4B9A-B580-FB301D09D7DD}|Lexer\\Lexer.csproj|solutionrelative:lexer\\tokenizer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3777C956-41A2-4E02-8A5F-958F33B46E48}|AMD_x86\\AMD_x86.csproj|C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\amd_x86\\x86_facade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3777C956-41A2-4E02-8A5F-958F33B46E48}|AMD_x86\\AMD_x86.csproj|solutionrelative:amd_x86\\x86_facade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C65F09E-471A-4B9A-B580-FB301D09D7DD}|Lexer\\Lexer.csproj|C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\lexer\\tokenizerstrategies\\tokenizedirectivestrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C65F09E-471A-4B9A-B580-FB301D09D7DD}|Lexer\\Lexer.csproj|solutionrelative:lexer\\tokenizerstrategies\\tokenizedirectivestrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C65F09E-471A-4B9A-B580-FB301D09D7DD}|Lexer\\Lexer.csproj|C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\lexer\\tokenizerstrategies\\tokenizeliteralstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C65F09E-471A-4B9A-B580-FB301D09D7DD}|Lexer\\Lexer.csproj|solutionrelative:lexer\\tokenizerstrategies\\tokenizeliteralstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C65F09E-471A-4B9A-B580-FB301D09D7DD}|Lexer\\Lexer.csproj|C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\lexer\\tokenizerstrategies\\tokenizeinstructionstrrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C65F09E-471A-4B9A-B580-FB301D09D7DD}|Lexer\\Lexer.csproj|solutionrelative:lexer\\tokenizerstrategies\\tokenizeinstructionstrrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B423046-35AA-4206-B47E-3D1624060757}|CORuntime\\CORuntime.csproj|C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\coruntime\\codesample - copy.ops||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{3B423046-35AA-4206-B47E-3D1624060757}|CORuntime\\CORuntime.csproj|solutionrelative:coruntime\\codesample - copy.ops||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C941C349-AED6-4532-9085-1E941DFBD207}|Compiler\\Compiler.csproj|C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\compiler\\compilestrategies\\int.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C941C349-AED6-4532-9085-1E941DFBD207}|Compiler\\Compiler.csproj|solutionrelative:compiler\\compilestrategies\\int.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C941C349-AED6-4532-9085-1E941DFBD207}|Compiler\\Compiler.csproj|C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\compiler\\compilestrategies\\jmp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C941C349-AED6-4532-9085-1E941DFBD207}|Compiler\\Compiler.csproj|solutionrelative:compiler\\compilestrategies\\jmp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C941C349-AED6-4532-9085-1E941DFBD207}|Compiler\\Compiler.csproj|C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\compiler\\compilestrategies\\ioinstruction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C941C349-AED6-4532-9085-1E941DFBD207}|Compiler\\Compiler.csproj|solutionrelative:compiler\\compilestrategies\\ioinstruction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D826FAE2-1E5F-4AD6-8371-F85B09996051}|EntryPoint\\EntryPoint.csproj|C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\entrypoint\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D826FAE2-1E5F-4AD6-8371-F85B09996051}|EntryPoint\\EntryPoint.csproj|solutionrelative:entrypoint\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{953656EE-E6D4-452C-9BD3-843E5D9ABD52}|WindowsAPI\\WindowsAPI.csproj|C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\windowsapi\\externwindowslibrary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{953656EE-E6D4-452C-9BD3-843E5D9ABD52}|WindowsAPI\\WindowsAPI.csproj|solutionrelative:windowsapi\\externwindowslibrary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3777C956-41A2-4E02-8A5F-958F33B46E48}|AMD_x86\\AMD_x86.csproj|C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\amd_x86\\amd_x86_instructions\\x86_lea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3777C956-41A2-4E02-8A5F-958F33B46E48}|AMD_x86\\AMD_x86.csproj|solutionrelative:amd_x86\\amd_x86_instructions\\x86_lea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C941C349-AED6-4532-9085-1E941DFBD207}|Compiler\\Compiler.csproj|C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\compiler\\compilestrategies\\ret.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C941C349-AED6-4532-9085-1E941DFBD207}|Compiler\\Compiler.csproj|solutionrelative:compiler\\compilestrategies\\ret.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3777C956-41A2-4E02-8A5F-958F33B46E48}|AMD_x86\\AMD_x86.csproj|C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\amd_x86\\amd_x86_instructions\\x86_retn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3777C956-41A2-4E02-8A5F-958F33B46E48}|AMD_x86\\AMD_x86.csproj|solutionrelative:amd_x86\\amd_x86_instructions\\x86_retn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70AC6EF3-CD45-48C4-9272-F084EA501A3B}|CompilerTests\\CompilerTests.csproj|C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\compilertests\\instructionstests\\ix00000001tests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70AC6EF3-CD45-48C4-9272-F084EA501A3B}|CompilerTests\\CompilerTests.csproj|solutionrelative:compilertests\\instructionstests\\ix00000001tests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70AC6EF3-CD45-48C4-9272-F084EA501A3B}|CompilerTests\\CompilerTests.csproj|C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\compilertests\\instructionstests\\ix00000000tests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70AC6EF3-CD45-48C4-9272-F084EA501A3B}|CompilerTests\\CompilerTests.csproj|solutionrelative:compilertests\\instructionstests\\ix00000000tests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4B40D4C-1696-45C5-9E4F-6CDDE58D2970}|AMD_x86_Tests\\AMD_x86_Tests.csproj|C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\amd_x86_tests\\amd_x86_push_imm16_32_tests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4B40D4C-1696-45C5-9E4F-6CDDE58D2970}|AMD_x86_Tests\\AMD_x86_Tests.csproj|solutionrelative:amd_x86_tests\\amd_x86_push_imm16_32_tests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4B40D4C-1696-45C5-9E4F-6CDDE58D2970}|AMD_x86_Tests\\AMD_x86_Tests.csproj|C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\amd_x86_tests\\amd_x86_nop_tests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4B40D4C-1696-45C5-9E4F-6CDDE58D2970}|AMD_x86_Tests\\AMD_x86_Tests.csproj|solutionrelative:amd_x86_tests\\amd_x86_nop_tests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C941C349-AED6-4532-9085-1E941DFBD207}|Compiler\\Compiler.csproj|C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\compiler\\compilestrategies\\ix0000000d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C941C349-AED6-4532-9085-1E941DFBD207}|Compiler\\Compiler.csproj|solutionrelative:compiler\\compilestrategies\\ix0000000d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C65F09E-471A-4B9A-B580-FB301D09D7DD}|Lexer\\Lexer.csproj|C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\lexer\\codesample.ops||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{7C65F09E-471A-4B9A-B580-FB301D09D7DD}|Lexer\\Lexer.csproj|solutionrelative:lexer\\codesample.ops||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C941C349-AED6-4532-9085-1E941DFBD207}|Compiler\\Compiler.csproj|C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\compiler\\compilestrategies\\call.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C941C349-AED6-4532-9085-1E941DFBD207}|Compiler\\Compiler.csproj|solutionrelative:compiler\\compilestrategies\\call.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{554AD896-0DFE-4A87-BCBC-8696B8DAEC88}|StateMachine\\StateMachine.csproj|C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\statemachine\\modulestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{554AD896-0DFE-4A87-BCBC-8696B8DAEC88}|StateMachine\\StateMachine.csproj|solutionrelative:statemachine\\modulestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99AE2420-DD19-4010-B5EE-22F144575C71}|BufferTable\\BufferTable.csproj|C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\buffertable\\multifunctionalbuffertable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99AE2420-DD19-4010-B5EE-22F144575C71}|BufferTable\\BufferTable.csproj|solutionrelative:buffertable\\multifunctionalbuffertable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99AE2420-DD19-4010-B5EE-22F144575C71}|BufferTable\\BufferTable.csproj|C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\buffertable\\reservebuffertable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99AE2420-DD19-4010-B5EE-22F144575C71}|BufferTable\\BufferTable.csproj|solutionrelative:buffertable\\reservebuffertable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3777C956-41A2-4E02-8A5F-958F33B46E48}|AMD_x86\\AMD_x86.csproj|C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\amd_x86\\amd_x86_instructions\\x86_call.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3777C956-41A2-4E02-8A5F-958F33B46E48}|AMD_x86\\AMD_x86.csproj|solutionrelative:amd_x86\\amd_x86_instructions\\x86_call.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C941C349-AED6-4532-9085-1E941DFBD207}|Compiler\\Compiler.csproj|C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\compiler\\compilestrategies\\ix00000002.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C941C349-AED6-4532-9085-1E941DFBD207}|Compiler\\Compiler.csproj|solutionrelative:compiler\\compilestrategies\\ix00000002.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99AE2420-DD19-4010-B5EE-22F144575C71}|BufferTable\\BufferTable.csproj|C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\buffertable\\argumentbuffertable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99AE2420-DD19-4010-B5EE-22F144575C71}|BufferTable\\BufferTable.csproj|solutionrelative:buffertable\\argumentbuffertable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3777C956-41A2-4E02-8A5F-958F33B46E48}|AMD_x86\\AMD_x86.csproj|C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\amd_x86\\registerbuffertable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3777C956-41A2-4E02-8A5F-958F33B46E48}|AMD_x86\\AMD_x86.csproj|solutionrelative:amd_x86\\registerbuffertable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEFDEB53-EDEE-47EA-9EA0-DF0946CDAB2D}|Domain\\Domain.csproj|C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\domain\\buffers\\callagreementbuffer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEFDEB53-EDEE-47EA-9EA0-DF0946CDAB2D}|Domain\\Domain.csproj|solutionrelative:domain\\buffers\\callagreementbuffer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEFDEB53-EDEE-47EA-9EA0-DF0946CDAB2D}|Domain\\Domain.csproj|C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\domain\\buffers\\buffertype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEFDEB53-EDEE-47EA-9EA0-DF0946CDAB2D}|Domain\\Domain.csproj|solutionrelative:domain\\buffers\\buffertype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEFDEB53-EDEE-47EA-9EA0-DF0946CDAB2D}|Domain\\Domain.csproj|C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\domain\\callagrements\\icallagreement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEFDEB53-EDEE-47EA-9EA0-DF0946CDAB2D}|Domain\\Domain.csproj|solutionrelative:domain\\callagrements\\icallagreement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEFDEB53-EDEE-47EA-9EA0-DF0946CDAB2D}|Domain\\Domain.csproj|C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\domain\\buffers\\registerbuffer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEFDEB53-EDEE-47EA-9EA0-DF0946CDAB2D}|Domain\\Domain.csproj|solutionrelative:domain\\buffers\\registerbuffer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{953656EE-E6D4-452C-9BD3-843E5D9ABD52}|WindowsAPI\\WindowsAPI.csproj|C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\windowsapi\\windowsstdcallagreement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{953656EE-E6D4-452C-9BD3-843E5D9ABD52}|WindowsAPI\\WindowsAPI.csproj|solutionrelative:windowsapi\\windowsstdcallagreement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEFDEB53-EDEE-47EA-9EA0-DF0946CDAB2D}|Domain\\Domain.csproj|C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\domain\\statement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEFDEB53-EDEE-47EA-9EA0-DF0946CDAB2D}|Domain\\Domain.csproj|solutionrelative:domain\\statement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEFDEB53-EDEE-47EA-9EA0-DF0946CDAB2D}|Domain\\Domain.csproj|C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\domain\\buffers\\bufferstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEFDEB53-EDEE-47EA-9EA0-DF0946CDAB2D}|Domain\\Domain.csproj|solutionrelative:domain\\buffers\\bufferstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEFDEB53-EDEE-47EA-9EA0-DF0946CDAB2D}|Domain\\Domain.csproj|C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\domain\\buffers\\identifierbuffer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEFDEB53-EDEE-47EA-9EA0-DF0946CDAB2D}|Domain\\Domain.csproj|solutionrelative:domain\\buffers\\identifierbuffer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEFDEB53-EDEE-47EA-9EA0-DF0946CDAB2D}|Domain\\Domain.csproj|C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\domain\\module.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEFDEB53-EDEE-47EA-9EA0-DF0946CDAB2D}|Domain\\Domain.csproj|solutionrelative:domain\\module.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1721B2F7-61D7-4355-91FC-97802A0608CD}|RunnerTests\\RunnerTests.csproj|C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\runnertests\\runnertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1721B2F7-61D7-4355-91FC-97802A0608CD}|RunnerTests\\RunnerTests.csproj|solutionrelative:runnertests\\runnertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{953656EE-E6D4-452C-9BD3-843E5D9ABD52}|WindowsAPI\\WindowsAPI.csproj|C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\windowsapi\\oswindowsapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{953656EE-E6D4-452C-9BD3-843E5D9ABD52}|WindowsAPI\\WindowsAPI.csproj|solutionrelative:windowsapi\\oswindowsapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C941C349-AED6-4532-9085-1E941DFBD207}|Compiler\\Compiler.csproj|C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\compiler\\compilestrategies\\ix00000003.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C941C349-AED6-4532-9085-1E941DFBD207}|Compiler\\Compiler.csproj|solutionrelative:compiler\\compilestrategies\\ix00000003.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEFDEB53-EDEE-47EA-9EA0-DF0946CDAB2D}|Domain\\Domain.csproj|C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\domain\\icpufacade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEFDEB53-EDEE-47EA-9EA0-DF0946CDAB2D}|Domain\\Domain.csproj|solutionrelative:domain\\icpufacade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3777C956-41A2-4E02-8A5F-958F33B46E48}|AMD_x86\\AMD_x86.csproj|C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\amd_x86\\amd_x86_instructions\\x86_mov_r_16_32_64_imm16_32_64.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3777C956-41A2-4E02-8A5F-958F33B46E48}|AMD_x86\\AMD_x86.csproj|solutionrelative:amd_x86\\amd_x86_instructions\\x86_mov_r_16_32_64_imm16_32_64.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3777C956-41A2-4E02-8A5F-958F33B46E48}|AMD_x86\\AMD_x86.csproj|C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\amd_x86\\amd_x86_instructions\\x86_mov_r_m16_32_64.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3777C956-41A2-4E02-8A5F-958F33B46E48}|AMD_x86\\AMD_x86.csproj|solutionrelative:amd_x86\\amd_x86_instructions\\x86_mov_r_m16_32_64.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3777C956-41A2-4E02-8A5F-958F33B46E48}|AMD_x86\\AMD_x86.csproj|C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\amd_x86\\amd_x86_instructions\\x86_syscall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3777C956-41A2-4E02-8A5F-958F33B46E48}|AMD_x86\\AMD_x86.csproj|solutionrelative:amd_x86\\amd_x86_instructions\\x86_syscall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3777C956-41A2-4E02-8A5F-958F33B46E48}|AMD_x86\\AMD_x86.csproj|C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\amd_x86\\amd_x86_instructions\\x86_pop_r_m16_32.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3777C956-41A2-4E02-8A5F-958F33B46E48}|AMD_x86\\AMD_x86.csproj|solutionrelative:amd_x86\\amd_x86_instructions\\x86_pop_r_m16_32.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEFDEB53-EDEE-47EA-9EA0-DF0946CDAB2D}|Domain\\Domain.csproj|C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\domain\\externmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEFDEB53-EDEE-47EA-9EA0-DF0946CDAB2D}|Domain\\Domain.csproj|solutionrelative:domain\\externmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C941C349-AED6-4532-9085-1E941DFBD207}|Compiler\\Compiler.csproj|C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\compiler\\nextexpected.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C941C349-AED6-4532-9085-1E941DFBD207}|Compiler\\Compiler.csproj|solutionrelative:compiler\\nextexpected.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B423046-35AA-4206-B47E-3D1624060757}|CORuntime\\CORuntime.csproj|C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\coruntime\\coruntime.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{3B423046-35AA-4206-B47E-3D1624060757}|CORuntime\\CORuntime.csproj|solutionrelative:coruntime\\coruntime.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{953656EE-E6D4-452C-9BD3-843E5D9ABD52}|WindowsAPI\\WindowsAPI.csproj|C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\windowsapi\\windowsapi.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{953656EE-E6D4-452C-9BD3-843E5D9ABD52}|WindowsAPI\\WindowsAPI.csproj|solutionrelative:windowsapi\\windowsapi.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEFDEB53-EDEE-47EA-9EA0-DF0946CDAB2D}|Domain\\Domain.csproj|C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\domain\\iexternmodulelibrary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEFDEB53-EDEE-47EA-9EA0-DF0946CDAB2D}|Domain\\Domain.csproj|solutionrelative:domain\\iexternmodulelibrary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 244,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d84ee353-0bef-5a41-a649-8f89aca5d84d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CodeSample.ops",
+              "DocumentMoniker": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\Compiler\\CodeSample.ops",
+              "RelativeDocumentMoniker": "Compiler\\CodeSample.ops",
+              "ToolTip": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\Compiler\\CodeSample.ops",
+              "RelativeToolTip": "Compiler\\CodeSample.ops",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-02-19T17:40:32.802Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CodeSample.ops",
+              "DocumentMoniker": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\CORuntime\\CodeSample.ops",
+              "RelativeDocumentMoniker": "CORuntime\\CodeSample.ops",
+              "ToolTip": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\CORuntime\\CodeSample.ops",
+              "RelativeToolTip": "CORuntime\\CodeSample.ops",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-02-18T16:14:55.59Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ExternModuleTable.cs",
+              "DocumentMoniker": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\StateMachine\\ExternModuleTable.cs",
+              "RelativeDocumentMoniker": "StateMachine\\ExternModuleTable.cs",
+              "ToolTip": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\StateMachine\\ExternModuleTable.cs",
+              "RelativeToolTip": "StateMachine\\ExternModuleTable.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAzwB8AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T19:57:09.738Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Compiler",
+              "DocumentMoniker": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\Compiler\\Compiler.csproj",
+              "RelativeDocumentMoniker": "Compiler\\Compiler.csproj",
+              "ToolTip": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\Compiler\\Compiler.csproj",
+              "RelativeToolTip": "Compiler\\Compiler.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-02-20T12:35:29.876Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Ix00000001.cs",
+              "DocumentMoniker": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\Compiler\\CompileStrategies\\Ix00000001.cs",
+              "RelativeDocumentMoniker": "Compiler\\CompileStrategies\\Ix00000001.cs",
+              "ToolTip": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\Compiler\\CompileStrategies\\Ix00000001.cs",
+              "RelativeToolTip": "Compiler\\CompileStrategies\\Ix00000001.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAqwB0AAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T08:27:35.27Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OCompiler.cs",
+              "DocumentMoniker": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\Compiler\\OCompiler.cs",
+              "RelativeDocumentMoniker": "Compiler\\OCompiler.cs",
+              "ToolTip": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\Compiler\\OCompiler.cs",
+              "RelativeToolTip": "Compiler\\OCompiler.cs",
+              "ViewState": "AQIAAFcAAAAAAAAAAAAuwFkAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T17:02:45.171Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "TokenizeDirectiveStrategy.cs",
+              "DocumentMoniker": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\Lexer\\TokenizerStrategies\\TokenizeDirectiveStrategy.cs",
+              "RelativeDocumentMoniker": "Lexer\\TokenizerStrategies\\TokenizeDirectiveStrategy.cs",
+              "ToolTip": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\Lexer\\TokenizerStrategies\\TokenizeDirectiveStrategy.cs",
+              "RelativeToolTip": "Lexer\\TokenizerStrategies\\TokenizeDirectiveStrategy.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAwAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T10:03:58.467Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BufferTableFasade.cs",
+              "DocumentMoniker": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\BufferTable\\BufferTableFasade.cs",
+              "RelativeDocumentMoniker": "BufferTable\\BufferTableFasade.cs",
+              "ToolTip": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\BufferTable\\BufferTableFasade.cs",
+              "RelativeToolTip": "BufferTable\\BufferTableFasade.cs",
+              "ViewState": "AQIAAEMAAAAAAAAAAAAzwE4AAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T16:05:22.141Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Ix00000000.cs",
+              "DocumentMoniker": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\Compiler\\CompileStrategies\\Ix00000000.cs",
+              "RelativeDocumentMoniker": "Compiler\\CompileStrategies\\Ix00000000.cs",
+              "ToolTip": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\Compiler\\CompileStrategies\\Ix00000000.cs",
+              "RelativeToolTip": "Compiler\\CompileStrategies\\Ix00000000.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T08:26:35.405Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "IOInstruction.cs",
+              "DocumentMoniker": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\Compiler\\CompileStrategies\\IOInstruction.cs",
+              "RelativeDocumentMoniker": "Compiler\\CompileStrategies\\IOInstruction.cs",
+              "ToolTip": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\Compiler\\CompileStrategies\\IOInstruction.cs",
+              "RelativeToolTip": "Compiler\\CompileStrategies\\IOInstruction.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T12:21:15.932Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "TokenizeInstructionStrrategy.cs",
+              "DocumentMoniker": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\Lexer\\TokenizerStrategies\\TokenizeInstructionStrrategy.cs",
+              "RelativeDocumentMoniker": "Lexer\\TokenizerStrategies\\TokenizeInstructionStrrategy.cs",
+              "ToolTip": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\Lexer\\TokenizerStrategies\\TokenizeInstructionStrrategy.cs",
+              "RelativeToolTip": "Lexer\\TokenizerStrategies\\TokenizeInstructionStrrategy.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T12:25:06.565Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CORunner.cs",
+              "DocumentMoniker": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\CORuntime\\CORunner.cs",
+              "RelativeDocumentMoniker": "CORuntime\\CORunner.cs",
+              "ToolTip": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\CORuntime\\CORunner.cs",
+              "RelativeToolTip": "CORuntime\\CORunner.cs",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAIwHgAAABTAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T15:59:40.349Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Tokenizer.cs",
+              "DocumentMoniker": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\Lexer\\Tokenizer.cs",
+              "RelativeDocumentMoniker": "Lexer\\Tokenizer.cs",
+              "ToolTip": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\Lexer\\Tokenizer.cs",
+              "RelativeToolTip": "Lexer\\Tokenizer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T09:10:21.94Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LiteralBuffer.cs",
+              "DocumentMoniker": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\Domain\\Buffers\\LiteralBuffer.cs",
+              "RelativeDocumentMoniker": "Domain\\Buffers\\LiteralBuffer.cs",
+              "ToolTip": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\Domain\\Buffers\\LiteralBuffer.cs",
+              "RelativeToolTip": "Domain\\Buffers\\LiteralBuffer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAIAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T09:28:01.654Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "COStartUp.cs",
+              "DocumentMoniker": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\CORuntime\\COStartUp.cs",
+              "RelativeDocumentMoniker": "CORuntime\\COStartUp.cs",
+              "ToolTip": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\CORuntime\\COStartUp.cs",
+              "RelativeToolTip": "CORuntime\\COStartUp.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAAAqwDYAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T17:02:46.026Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CORuntime.csproj",
+              "DocumentMoniker": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\CORuntime\\CORuntime.csproj",
+              "RelativeDocumentMoniker": "CORuntime\\CORuntime.csproj",
+              "ToolTip": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\CORuntime\\CORuntime.csproj",
+              "RelativeToolTip": "CORuntime\\CORuntime.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-02-19T10:39:27.189Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "TokenizeLiteralStrategy.cs",
+              "DocumentMoniker": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\Lexer\\TokenizerStrategies\\TokenizeLiteralStrategy.cs",
+              "RelativeDocumentMoniker": "Lexer\\TokenizerStrategies\\TokenizeLiteralStrategy.cs",
+              "ToolTip": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\Lexer\\TokenizerStrategies\\TokenizeLiteralStrategy.cs",
+              "RelativeToolTip": "Lexer\\TokenizerStrategies\\TokenizeLiteralStrategy.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T12:25:07.336Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "x86_Facade.cs",
+              "DocumentMoniker": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\AMD_x86\\x86_Facade.cs",
+              "RelativeDocumentMoniker": "AMD_x86\\x86_Facade.cs",
+              "ToolTip": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\AMD_x86\\x86_Facade.cs",
+              "RelativeToolTip": "AMD_x86\\x86_Facade.cs",
+              "ViewState": "AQIAADAAAAAAAAAAAAA+wAMAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T17:19:37.606Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "INT.cs",
+              "DocumentMoniker": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\Compiler\\CompileStrategies\\INT.cs",
+              "RelativeDocumentMoniker": "Compiler\\CompileStrategies\\INT.cs",
+              "ToolTip": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\Compiler\\CompileStrategies\\INT.cs",
+              "RelativeToolTip": "Compiler\\CompileStrategies\\INT.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T12:21:03.731Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "jmp.cs",
+              "DocumentMoniker": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\Compiler\\CompileStrategies\\jmp.cs",
+              "RelativeDocumentMoniker": "Compiler\\CompileStrategies\\jmp.cs",
+              "ToolTip": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\Compiler\\CompileStrategies\\jmp.cs",
+              "RelativeToolTip": "Compiler\\CompileStrategies\\jmp.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T10:04:26.165Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "CodeSample - Copy.ops",
+              "DocumentMoniker": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\CORuntime\\CodeSample - Copy.ops",
+              "RelativeDocumentMoniker": "CORuntime\\CodeSample - Copy.ops",
+              "ToolTip": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\CORuntime\\CodeSample - Copy.ops",
+              "RelativeToolTip": "CORuntime\\CodeSample - Copy.ops",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-02-19T16:09:37.236Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\EntryPoint\\Program.cs",
+              "RelativeDocumentMoniker": "EntryPoint\\Program.cs",
+              "ToolTip": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\EntryPoint\\Program.cs",
+              "RelativeToolTip": "EntryPoint\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T16:03:58.503Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ExternWindowsLibrary.cs",
+              "DocumentMoniker": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\WindowsAPI\\ExternWindowsLibrary.cs",
+              "RelativeDocumentMoniker": "WindowsAPI\\ExternWindowsLibrary.cs",
+              "ToolTip": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\WindowsAPI\\ExternWindowsLibrary.cs",
+              "RelativeToolTip": "WindowsAPI\\ExternWindowsLibrary.cs",
+              "ViewState": "AQIAADEAAAAAAAAAAAAxwC4AAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T16:53:05.615Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "x86_LEA.cs",
+              "DocumentMoniker": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\AMD_x86\\AMD_x86_Instructions\\x86_LEA.cs",
+              "RelativeDocumentMoniker": "AMD_x86\\AMD_x86_Instructions\\x86_LEA.cs",
+              "ToolTip": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\AMD_x86\\AMD_x86_Instructions\\x86_LEA.cs",
+              "RelativeToolTip": "AMD_x86\\AMD_x86_Instructions\\x86_LEA.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T16:22:43.463Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "x86_RETN.cs",
+              "DocumentMoniker": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\AMD_x86\\AMD_x86_Instructions\\x86_RETN.cs",
+              "RelativeDocumentMoniker": "AMD_x86\\AMD_x86_Instructions\\x86_RETN.cs",
+              "ToolTip": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\AMD_x86\\AMD_x86_Instructions\\x86_RETN.cs",
+              "RelativeToolTip": "AMD_x86\\AMD_x86_Instructions\\x86_RETN.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T16:22:44.836Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ret.cs",
+              "DocumentMoniker": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\Compiler\\CompileStrategies\\ret.cs",
+              "RelativeDocumentMoniker": "Compiler\\CompileStrategies\\ret.cs",
+              "ToolTip": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\Compiler\\CompileStrategies\\ret.cs",
+              "RelativeToolTip": "Compiler\\CompileStrategies\\ret.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T08:29:29.085Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Ix00000001Tests.cs",
+              "DocumentMoniker": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\CompilerTests\\InstructionsTests\\Ix00000001Tests.cs",
+              "RelativeDocumentMoniker": "CompilerTests\\InstructionsTests\\Ix00000001Tests.cs",
+              "ToolTip": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\CompilerTests\\InstructionsTests\\Ix00000001Tests.cs",
+              "RelativeToolTip": "CompilerTests\\InstructionsTests\\Ix00000001Tests.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAkwB0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T10:57:05.033Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Ix00000000Tests.cs",
+              "DocumentMoniker": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\CompilerTests\\InstructionsTests\\Ix00000000Tests.cs",
+              "RelativeDocumentMoniker": "CompilerTests\\InstructionsTests\\Ix00000000Tests.cs",
+              "ToolTip": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\CompilerTests\\InstructionsTests\\Ix00000000Tests.cs",
+              "RelativeToolTip": "CompilerTests\\InstructionsTests\\Ix00000000Tests.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T10:57:02.235Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "AMD_x86_NOP_Tests.cs",
+              "DocumentMoniker": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\AMD_x86_Tests\\AMD_x86_NOP_Tests.cs",
+              "RelativeDocumentMoniker": "AMD_x86_Tests\\AMD_x86_NOP_Tests.cs",
+              "ToolTip": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\AMD_x86_Tests\\AMD_x86_NOP_Tests.cs",
+              "RelativeToolTip": "AMD_x86_Tests\\AMD_x86_NOP_Tests.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAAAAkAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T10:56:48.417Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "CodeSample.ops",
+              "DocumentMoniker": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\Lexer\\CodeSample.ops",
+              "RelativeDocumentMoniker": "Lexer\\CodeSample.ops",
+              "ToolTip": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\Lexer\\CodeSample.ops",
+              "RelativeToolTip": "Lexer\\CodeSample.ops",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-02-20T09:25:28.93Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Ix00000002.cs",
+              "DocumentMoniker": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\Compiler\\CompileStrategies\\Ix00000002.cs",
+              "RelativeDocumentMoniker": "Compiler\\CompileStrategies\\Ix00000002.cs",
+              "ToolTip": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\Compiler\\CompileStrategies\\Ix00000002.cs",
+              "RelativeToolTip": "Compiler\\CompileStrategies\\Ix00000002.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T08:27:33.594Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "call.cs",
+              "DocumentMoniker": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\Compiler\\CompileStrategies\\call.cs",
+              "RelativeDocumentMoniker": "Compiler\\CompileStrategies\\call.cs",
+              "ToolTip": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\Compiler\\CompileStrategies\\call.cs",
+              "RelativeToolTip": "Compiler\\CompileStrategies\\call.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T17:03:22.499Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "AMD_x86_PUSH_imm16_32_Tests.cs",
+              "DocumentMoniker": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\AMD_x86_Tests\\AMD_x86_PUSH_imm16_32_Tests.cs",
+              "RelativeDocumentMoniker": "AMD_x86_Tests\\AMD_x86_PUSH_imm16_32_Tests.cs",
+              "ToolTip": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\AMD_x86_Tests\\AMD_x86_PUSH_imm16_32_Tests.cs",
+              "RelativeToolTip": "AMD_x86_Tests\\AMD_x86_PUSH_imm16_32_Tests.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAUwAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T17:53:53.875Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "MultifunctionalBufferTable.cs",
+              "DocumentMoniker": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\BufferTable\\MultifunctionalBufferTable.cs",
+              "RelativeDocumentMoniker": "BufferTable\\MultifunctionalBufferTable.cs",
+              "ToolTip": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\BufferTable\\MultifunctionalBufferTable.cs",
+              "RelativeToolTip": "BufferTable\\MultifunctionalBufferTable.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAnwB8AAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T09:55:40.77Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Ix0000000D.cs",
+              "DocumentMoniker": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\Compiler\\CompileStrategies\\Ix0000000D.cs",
+              "RelativeDocumentMoniker": "Compiler\\CompileStrategies\\Ix0000000D.cs",
+              "ToolTip": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\Compiler\\CompileStrategies\\Ix0000000D.cs",
+              "RelativeToolTip": "Compiler\\CompileStrategies\\Ix0000000D.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAUwBcAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T08:00:09.276Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "RegisterBuffer.cs",
+              "DocumentMoniker": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\Domain\\Buffers\\RegisterBuffer.cs",
+              "RelativeDocumentMoniker": "Domain\\Buffers\\RegisterBuffer.cs",
+              "ToolTip": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\Domain\\Buffers\\RegisterBuffer.cs",
+              "RelativeToolTip": "Domain\\Buffers\\RegisterBuffer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T09:50:02.893Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "BufferType.cs",
+              "DocumentMoniker": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\Domain\\Buffers\\BufferType.cs",
+              "RelativeDocumentMoniker": "Domain\\Buffers\\BufferType.cs",
+              "ToolTip": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\Domain\\Buffers\\BufferType.cs",
+              "RelativeToolTip": "Domain\\Buffers\\BufferType.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T09:51:54.455Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "ArgumentBufferTable.cs",
+              "DocumentMoniker": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\BufferTable\\ArgumentBufferTable.cs",
+              "RelativeDocumentMoniker": "BufferTable\\ArgumentBufferTable.cs",
+              "ToolTip": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\BufferTable\\ArgumentBufferTable.cs",
+              "RelativeToolTip": "BufferTable\\ArgumentBufferTable.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAIAwwDoAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T13:44:00.501Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "ModuleState.cs",
+              "DocumentMoniker": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\StateMachine\\ModuleState.cs",
+              "RelativeDocumentMoniker": "StateMachine\\ModuleState.cs",
+              "ToolTip": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\StateMachine\\ModuleState.cs",
+              "RelativeToolTip": "StateMachine\\ModuleState.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T09:10:20.77Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "OSWindowsAPI.cs",
+              "DocumentMoniker": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\WindowsAPI\\OSWindowsAPI.cs",
+              "RelativeDocumentMoniker": "WindowsAPI\\OSWindowsAPI.cs",
+              "ToolTip": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\WindowsAPI\\OSWindowsAPI.cs",
+              "RelativeToolTip": "WindowsAPI\\OSWindowsAPI.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAUwA8AAABTAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T16:54:18.882Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "ReserveBufferTable.cs",
+              "DocumentMoniker": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\BufferTable\\ReserveBufferTable.cs",
+              "RelativeDocumentMoniker": "BufferTable\\ReserveBufferTable.cs",
+              "ToolTip": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\BufferTable\\ReserveBufferTable.cs",
+              "RelativeToolTip": "BufferTable\\ReserveBufferTable.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwBQAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T09:23:08.408Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "ICallAgreement.cs",
+              "DocumentMoniker": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\Domain\\CallAgrements\\ICallAgreement.cs",
+              "RelativeDocumentMoniker": "Domain\\CallAgrements\\ICallAgreement.cs",
+              "ToolTip": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\Domain\\CallAgrements\\ICallAgreement.cs",
+              "RelativeToolTip": "Domain\\CallAgrements\\ICallAgreement.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T20:34:03.142Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "x86_CALL.cs",
+              "DocumentMoniker": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\AMD_x86\\AMD_x86_Instructions\\x86_CALL.cs",
+              "RelativeDocumentMoniker": "AMD_x86\\AMD_x86_Instructions\\x86_CALL.cs",
+              "ToolTip": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\AMD_x86\\AMD_x86_Instructions\\x86_CALL.cs",
+              "RelativeToolTip": "AMD_x86\\AMD_x86_Instructions\\x86_CALL.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T16:22:37.33Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "RegisterBufferTable.cs",
+              "DocumentMoniker": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\AMD_x86\\RegisterBufferTable.cs",
+              "RelativeDocumentMoniker": "AMD_x86\\RegisterBufferTable.cs",
+              "ToolTip": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\AMD_x86\\RegisterBufferTable.cs",
+              "RelativeToolTip": "AMD_x86\\RegisterBufferTable.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAAAkwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T17:19:38.409Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "Module.cs",
+              "DocumentMoniker": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\Domain\\Module.cs",
+              "RelativeDocumentMoniker": "Domain\\Module.cs",
+              "ToolTip": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\Domain\\Module.cs",
+              "RelativeToolTip": "Domain\\Module.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T09:51:42.487Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "RunnerTests.cs",
+              "DocumentMoniker": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\RunnerTests\\RunnerTests.cs",
+              "RelativeDocumentMoniker": "RunnerTests\\RunnerTests.cs",
+              "ToolTip": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\RunnerTests\\RunnerTests.cs",
+              "RelativeToolTip": "RunnerTests\\RunnerTests.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAgwEYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T09:49:17.154Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "CallAgreementBuffer.cs",
+              "DocumentMoniker": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\Domain\\Buffers\\CallAgreementBuffer.cs",
+              "RelativeDocumentMoniker": "Domain\\Buffers\\CallAgreementBuffer.cs",
+              "ToolTip": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\Domain\\Buffers\\CallAgreementBuffer.cs",
+              "RelativeToolTip": "Domain\\Buffers\\CallAgreementBuffer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwBIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T09:17:13.11Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "WindowsSTDCallAgreement.cs",
+              "DocumentMoniker": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\WindowsAPI\\WindowsSTDCallAgreement.cs",
+              "RelativeDocumentMoniker": "WindowsAPI\\WindowsSTDCallAgreement.cs",
+              "ToolTip": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\WindowsAPI\\WindowsSTDCallAgreement.cs",
+              "RelativeToolTip": "WindowsAPI\\WindowsSTDCallAgreement.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAD4vyMAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T17:23:33.542Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "BufferState.cs",
+              "DocumentMoniker": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\Domain\\Buffers\\BufferState.cs",
+              "RelativeDocumentMoniker": "Domain\\Buffers\\BufferState.cs",
+              "ToolTip": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\Domain\\Buffers\\BufferState.cs",
+              "RelativeToolTip": "Domain\\Buffers\\BufferState.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T09:51:55.813Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Statement.cs",
+              "DocumentMoniker": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\Domain\\Statement.cs",
+              "RelativeDocumentMoniker": "Domain\\Statement.cs",
+              "ToolTip": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\Domain\\Statement.cs",
+              "RelativeToolTip": "Domain\\Statement.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T09:52:00.419Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "IdentifierBuffer.cs",
+              "DocumentMoniker": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\Domain\\Buffers\\IdentifierBuffer.cs",
+              "RelativeDocumentMoniker": "Domain\\Buffers\\IdentifierBuffer.cs",
+              "ToolTip": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\Domain\\Buffers\\IdentifierBuffer.cs",
+              "RelativeToolTip": "Domain\\Buffers\\IdentifierBuffer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T09:27:59.921Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "Ix00000003.cs",
+              "DocumentMoniker": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\Compiler\\CompileStrategies\\Ix00000003.cs",
+              "RelativeDocumentMoniker": "Compiler\\CompileStrategies\\Ix00000003.cs",
+              "ToolTip": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\Compiler\\CompileStrategies\\Ix00000003.cs",
+              "RelativeToolTip": "Compiler\\CompileStrategies\\Ix00000003.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T09:19:12.21Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "x86_MOV_r_m16_32_64.cs",
+              "DocumentMoniker": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\AMD_x86\\AMD_x86_Instructions\\x86_MOV_r_m16_32_64.cs",
+              "RelativeDocumentMoniker": "AMD_x86\\AMD_x86_Instructions\\x86_MOV_r_m16_32_64.cs",
+              "ToolTip": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\AMD_x86\\AMD_x86_Instructions\\x86_MOV_r_m16_32_64.cs",
+              "RelativeToolTip": "AMD_x86\\AMD_x86_Instructions\\x86_MOV_r_m16_32_64.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAUwBgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T08:17:36.508Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "ICPUFacade.cs",
+              "DocumentMoniker": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\Domain\\ICPUFacade.cs",
+              "RelativeDocumentMoniker": "Domain\\ICPUFacade.cs",
+              "ToolTip": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\Domain\\ICPUFacade.cs",
+              "RelativeToolTip": "Domain\\ICPUFacade.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAAwA0AAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T10:14:07.877Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "x86_MOV_r_16_32_64_imm16_32_64.cs",
+              "DocumentMoniker": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\AMD_x86\\AMD_x86_Instructions\\x86_MOV_r_16_32_64_imm16_32_64.cs",
+              "RelativeDocumentMoniker": "AMD_x86\\AMD_x86_Instructions\\x86_MOV_r_16_32_64_imm16_32_64.cs",
+              "ToolTip": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\AMD_x86\\AMD_x86_Instructions\\x86_MOV_r_16_32_64_imm16_32_64.cs",
+              "RelativeToolTip": "AMD_x86\\AMD_x86_Instructions\\x86_MOV_r_16_32_64_imm16_32_64.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAUwBcAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T16:20:33.504Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "x86_SYSCALL.cs",
+              "DocumentMoniker": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\AMD_x86\\AMD_x86_Instructions\\x86_SYSCALL.cs",
+              "RelativeDocumentMoniker": "AMD_x86\\AMD_x86_Instructions\\x86_SYSCALL.cs",
+              "ToolTip": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\AMD_x86\\AMD_x86_Instructions\\x86_SYSCALL.cs",
+              "RelativeToolTip": "AMD_x86\\AMD_x86_Instructions\\x86_SYSCALL.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T17:16:31.534Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "x86_POP_r_m16_32.cs",
+              "DocumentMoniker": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\AMD_x86\\AMD_x86_Instructions\\x86_POP_r_m16_32.cs",
+              "RelativeDocumentMoniker": "AMD_x86\\AMD_x86_Instructions\\x86_POP_r_m16_32.cs",
+              "ToolTip": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\AMD_x86\\AMD_x86_Instructions\\x86_POP_r_m16_32.cs",
+              "RelativeToolTip": "AMD_x86\\AMD_x86_Instructions\\x86_POP_r_m16_32.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T08:29:40.884Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "ExternModule.cs",
+              "DocumentMoniker": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\Domain\\ExternModule.cs",
+              "RelativeDocumentMoniker": "Domain\\ExternModule.cs",
+              "ToolTip": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\Domain\\ExternModule.cs",
+              "RelativeToolTip": "Domain\\ExternModule.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T19:55:12.069Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "CORuntime",
+              "DocumentMoniker": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\CORuntime\\CORuntime.csproj",
+              "RelativeDocumentMoniker": "CORuntime\\CORuntime.csproj",
+              "ToolTip": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\CORuntime\\CORuntime.csproj",
+              "RelativeToolTip": "CORuntime\\CORuntime.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-02-18T16:59:54.001Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "NextExpected.cs",
+              "DocumentMoniker": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\Compiler\\NextExpected.cs",
+              "RelativeDocumentMoniker": "Compiler\\NextExpected.cs",
+              "ToolTip": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\Compiler\\NextExpected.cs",
+              "RelativeToolTip": "Compiler\\NextExpected.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T14:27:49.358Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "WindowsAPI",
+              "DocumentMoniker": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\WindowsAPI\\WindowsAPI.csproj",
+              "RelativeDocumentMoniker": "WindowsAPI\\WindowsAPI.csproj",
+              "ToolTip": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\WindowsAPI\\WindowsAPI.csproj",
+              "RelativeToolTip": "WindowsAPI\\WindowsAPI.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-02-19T10:39:19.778Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "IExternModuleLibrary.cs",
+              "DocumentMoniker": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\Domain\\IExternModuleLibrary.cs",
+              "RelativeDocumentMoniker": "Domain\\IExternModuleLibrary.cs",
+              "ToolTip": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\Domain\\IExternModuleLibrary.cs",
+              "RelativeToolTip": "Domain\\IExternModuleLibrary.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T16:52:47.038Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

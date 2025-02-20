@@ -17,7 +17,7 @@ public class TokenizeLiteralStrategy : ITokenizeStrategy
 
         if (str.StartsWith('\"') && str.EndsWith('\"'))
         {
-            result = new LiteralToken(str, LiteralType.LString);
+            result = new LiteralToken(str.Substring(1, str.Length - 2), LiteralType.LString);
             return true;
         }
 

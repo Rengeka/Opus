@@ -1,4 +1,6 @@
-﻿namespace Tokens;
+﻿using Domain;
+
+namespace Tokens;
 
 public class ModuleToken : Token
 {

@@ -1,4 +1,5 @@
 ﻿using Domain;
+using Domain.CallAgrements;
 
 namespace BufferTable;
 
@@ -14,11 +15,18 @@ public class BufferTableFasade
     public BufferTableFasade(
         ArgumentBufferTable argumentBufferTable,
         MultifunctionalBufferTable multifunctionalBufferTable,
-        ReserveBufferTable reserveBufferTable)
+        ReserveBufferTable reserveBufferTable,
+        IPhysicalBufferTable physicalBufferTable)
     {
         _argumentBufferTable = argumentBufferTable;
         _multifunctionalBufferTable = multifunctionalBufferTable;
         _reserveBufferTable = reserveBufferTable;
+        _reserveBufferTable.LoadBuffers(physicalBufferTable.GetBuffers());
+    }
+
+    public void AddBufferInReserve(IBuffer buffer)
+    {
+        _reserveBufferTable.LoadBuffer(buffer);
     }
 
     public IBuffer GetOutputBuffer()
@@ -27,6 +35,33 @@ public class BufferTableFasade
         {
             _outputBuffer = _reserveBufferTable.GetFreeBuffer();
         }
+
+        return _outputBuffer;
+    }
+
+    public IBuffer GetOutputBuffer(ICallAgreement callAgreement)
+    {
+        if (callAgreement == null || callAgreement is STDOCallAgreement)
+        {
+            return _reserveBufferTable.GetFreeBuffer();
+        }
+
+        if (_outputBuffer == null)
+        {
+            //_reserveBufferTable.LoadBuffers(new List<IBuffer> { _outputBuffer });
+
+            var sad = callAgreement.GetOutputBuffer();
+
+            if (_reserveBufferTable.GetBuffer(callAgreement.GetOutputBuffer(), out _outputBuffer))
+            {
+                return _outputBuffer;
+            }
+            else
+            {
+                _outputBuffer = _reserveBufferTable.GetFreeBuffer();
+            }
+        }
+
 
         return _outputBuffer;
     }
@@ -40,10 +75,9 @@ public class BufferTableFasade
 
         return _acummulatorBuffer;
     }
-
-    public RegisterBuffer GetNextArgumentBuffer(/*Add call conventions*/)
+    public IBuffer GetNextArgumentBuffer(ICallAgreement callAgreement)
     {
-        return _argumentBufferTable.GetNext();
+        return _argumentBufferTable.GetNext(callAgreement);
     }
 
     public void ResetArgumentCounter()

@@ -215,3 +215,5 @@ C:\Users\stasi\Desktop\OpusCompiler\AMD_x86_Tests\obj\Debug\net8.0\refint\AMD_x8
 C:\Users\stasi\Desktop\OpusCompiler\AMD_x86_Tests\obj\Debug\net8.0\AMD_x86_Tests.pdb
 C:\Users\stasi\Desktop\OpusCompiler\AMD_x86_Tests\obj\Debug\net8.0\AMD_x86_Tests.genruntimeconfig.cache
 C:\Users\stasi\Desktop\OpusCompiler\AMD_x86_Tests\obj\Debug\net8.0\ref\AMD_x86_Tests.dll
+C:\Users\stasi\source\repos\Opus\OpusCompiler\AMD_x86_Tests\bin\Debug\net8.0\StateMachine.dll
+C:\Users\stasi\source\repos\Opus\OpusCompiler\AMD_x86_Tests\bin\Debug\net8.0\StateMachine.pdb

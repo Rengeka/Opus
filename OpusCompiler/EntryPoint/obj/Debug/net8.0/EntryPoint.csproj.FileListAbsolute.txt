@@ -63,3 +63,6 @@ C:\Users\stasi\source\repos\Opus\OpusCompiler\EntryPoint\bin\Debug\net8.0\Parser
 C:\Users\stasi\source\repos\Opus\OpusCompiler\EntryPoint\bin\Debug\net8.0\StateMachine.pdb
 C:\Users\stasi\source\repos\Opus\OpusCompiler\EntryPoint\obj\Debug\net8.0\EntryPoint.csproj.AssemblyReference.cache
 C:\Users\stasi\source\repos\Opus\OpusCompiler\EntryPoint\obj\Debug\net8.0\EntryPoint.csproj.Up2Date
+C:\Users\stasi\source\repos\Opus\OpusCompiler\EntryPoint\bin\Debug\net8.0\Serilog.dll
+C:\Users\stasi\source\repos\Opus\OpusCompiler\EntryPoint\bin\Debug\net8.0\WindowsAPI.dll
+C:\Users\stasi\source\repos\Opus\OpusCompiler\EntryPoint\bin\Debug\net8.0\WindowsAPI.pdb

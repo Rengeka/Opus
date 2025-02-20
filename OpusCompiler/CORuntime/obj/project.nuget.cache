@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "aTbjsZWtV9svgGsUaMGJWqXmd6bIZXv59Pk5PpWKgTFtkdAt5QnU2nRIg6vS7AF6MwXLgUOJ+biPVop2Wbf8Mw==",
+  "dgSpecHash": "55UVE1bE7xJKyU+zusP0yPBmFHXdBmrqpVi/KIs3W+Y7BRb7tuBp3flY8xLobQAmyqhzqfDFwf1A/cq0ONRclw==",
   "success": true,
   "projectFilePath": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\CORuntime\\CORuntime.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\stasi\\.nuget\\packages\\serilog\\4.2.0\\serilog.4.2.0.nupkg.sha512"
+  ],
   "logs": []
 }

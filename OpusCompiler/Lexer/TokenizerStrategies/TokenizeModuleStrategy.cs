@@ -8,7 +8,7 @@ public class TokenizeModuleStrategy : ITokenizeStrategy
     {
         if (str.StartsWith("[<") && str.EndsWith(">]"))
         {
-            result = new ModuleToken(str.Substring(2, str.Length - 4));
+            result = new ModuleToken(str.Trim().Substring(2, str.Length - 4));
             return true;
         }
 

@@ -9,6 +9,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\CORuntime\CORuntime.csproj" />
+    <ProjectReference Include="..\WindowsAPI\WindowsAPI.csproj" />
   </ItemGroup>
 
 </Project>
