@@ -1,26 +1,34 @@
-# Opus
-The best bytecode in the world
+# Opus - The best bytecode in the world
 
-Virtual buffers
+### This language was developed as a Ciobanu Stanisalv's course work. Pleas enjoy coding :)
+
+### Virtual buffers
+
+
 Multifunctional buffers :
 
+```
 BF1 - Buffer 1
 BF2 - Buffer 2
 AC - Accumulator
+```
 
-Function argument buffers :
+### Function argument buffers :
 
+```
 AR1 - Argument 1 of function
-AR2 - Argument 2 of function
-AR3 - Argument 3 of function
-AR4 - Argument 4 of function
-AR5 - Argument 5 of function
+...
+ARN - Argument N of function
+```
 
+```
 O - Output buffer
+```
 
-Instructions list
+### Instructions list
 
-Ix00000000 - Do nothing
+```
+Ix00000000 - No operation
 Ix00000001 [v] - Load value v into next function argument buffer
 Ix00000002 - Reset numeration of function argument buffer
 Ix00000003 [v] - Load value v into next multifunctional buffer
@@ -40,3 +48,48 @@ Ix0000000F [n] - Load function argument n into next mulifunctional buffer
 Ix00000010 [n] - Load function argument n into next function argument buffer
 Ix00000011 [n] - Create 1 or n byte variable into stack 
 Ix00000012 [n] [v] - Set value v to variable n
+```
+
+### Code Sample 1:
+
+```
+[<EntryPoint>]
+
+	Ix00000001	-11                 - Load -11 in AR1 
+	call GetStdHandle               - Call GetStdFunction. Result of operation is in O
+
+	Ix00000002                      - Reset AR buffer numeration
+
+	Ix0000000D                      - Load O value in AR1 
+	Ix00000001	"Hello, World!"     - Load "Hello, World!" in AR2 
+	Ix00000001	13                  - Load 13 in AR3 
+	
+	call WriteConsoleA              - Call WriteConsole
+	
+	ret                             - Return
+```
+
+### Code Sample 2:
+
+```
+[<EntryPoint>]
+
+	call Print
+
+	ret
+
+[<Print>]
+
+	Ix00000001	-11
+	call GetStdHandle
+
+	Ix00000002
+
+	Ix0000000D
+	Ix00000001	"Print function executed successfully"
+	Ix00000001	36
+	
+	call WriteConsoleA
+	
+	ret
+```

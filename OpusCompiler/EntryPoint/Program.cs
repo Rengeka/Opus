@@ -2,8 +2,15 @@
 using CORuntime;
 using WindowsAPI;
 
-var startup = new COStartUp();
-var CPU = new x86_Facade();
-var windowsAPI = new OSWindowsAPI();
+class Program
+{
+    static void Main(string[] args)
+    {
+        var startup = new COStartUp();
+        var CPU = new x86_Facade();
+        var windowsAPI = new OSWindowsAPI();
+        var codePath = /*args[0];*/ "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\CORuntime\\CodeSample.ops";
 
-startup.Start(CPU, windowsAPI);
+        startup.Start(CPU, windowsAPI, codePath);
+    }
+}

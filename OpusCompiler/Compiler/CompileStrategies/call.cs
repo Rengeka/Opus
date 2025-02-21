@@ -1,6 +1,7 @@
 ﻿using BufferTable;
 using Domain;
 using Domain.Buffers;
+using Domain.Modules;
 using Domain.Result;
 using StateMachine;
 
@@ -29,41 +30,53 @@ public class call : IOInstruction
     /// Call function
     /// </summary>
     /// <param name="buffers">Module identifier</param>
-    /// <returns>CompilationResult with no machine code</returns>
+    /// <returns>CompilationResult with machine code</returns>
     public CompilationResult<byte[]> COMPILE(params IBuffer[] buffers)
     {
         var funcIdentifier = (string)buffers[0].GetValue();
-
-        Tuple<ModuleState, List<Statement>> module;
+        Module module;
 
         if (_moduleTable.TryGetModule(funcIdentifier, out module))
         {
+            if (module.Ptr != null)
+            {
+                return COMPILE_CALL(module.Ptr);
+                // compile
+            }
+            else
+            {
+                // compile with wait for single object and 00000000 address 
+                // replace this 00000000 later with correct address
+            }
+
             throw new NotImplementedException();
         }
         else
         {
             var funcPtr = _externModuleTable.GetModuleAddress(funcIdentifier);
-            var buffer = _bufferTable.GetNextMultifunctionalBuffer();
 
-            //var literalBuffer = new LiteralBuffer(BitConverter.GetBytes(funcPtr));
-            var literalBuffer = new LiteralBuffer(funcPtr);
+            return COMPILE_CALL(funcPtr);
+        }
+    }
 
-            var MOVResult = _CPU.MOV(buffer, literalBuffer);
+    private CompilationResult<byte[]> COMPILE_CALL(byte[] funcPtr)
+    {
+        var buffer = _bufferTable.GetNextMultifunctionalBuffer();
+        var literalBuffer = new LiteralBuffer(funcPtr);
 
-            if (!MOVResult.IsSucess)
-            {
-                return MOVResult;
-            }
+        var MOVResult = _CPU.MOV(buffer, literalBuffer);
 
-            var CALLResult = _CPU.CALL(buffer);
-            var code = MOVResult.Value.Concat(CALLResult.Value).ToArray();
-
-            _bufferTable.AddBufferInReserve(buffer);
-
-            return CompilationResult<byte[]>.Success(code);
+        if (!MOVResult.IsSucess)
+        {
+            return MOVResult;
         }
 
-        throw new NotImplementedException();
+        var CALLResult = _CPU.CALL(buffer);
+        var code = MOVResult.Value.Concat(CALLResult.Value).ToArray();
+
+        _bufferTable.AddBufferInReserve(buffer);
+
+        return CompilationResult<byte[]>.Success(code);
     }
 
     public List<NextExpected> GetNextExpected()

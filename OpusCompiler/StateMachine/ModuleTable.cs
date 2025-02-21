@@ -1,31 +1,40 @@
 ﻿using Domain;
+using Domain.Modules;
 
 namespace StateMachine;
 
 public class ModuleTable
 {
-    private Dictionary<string, Tuple<ModuleState, List<Statement>>> _moduleTable;
+    private Dictionary<string, Module> _modules;
 
     public ModuleTable()
     {
-        _moduleTable = new Dictionary<string, Tuple<ModuleState, List<Statement>>>();
+        _modules = new Dictionary<string, Module>();
     }
 
     public void AddModules(Dictionary<string, List<Statement>> table)
     {
-        foreach (var module in table)
+        foreach (var moduleData in table)
         {
-            _moduleTable.Add(module.Key, new Tuple<ModuleState, List<Statement>>(ModuleState.ReadyToCompile, module.Value));
+            _modules.Add(moduleData.Key, new Module(moduleData.Value));
         }
     }
 
-    public bool TryGetModule(string identifier, out Tuple<ModuleState, List<Statement>> module)
+    public void AddModules(Dictionary<string, Module> table)
     {
-        return _moduleTable.TryGetValue(identifier, out module);
+        foreach (var module in table)
+        {
+            _modules.Add(module.Key, module.Value);
+        }
+    }
+
+    public bool TryGetModule(string identifier, out Module module)
+    {
+        return _modules.TryGetValue(identifier, out module);
     }
 
     public bool ContainsModule(string identifier)
     {
-        return _moduleTable.ContainsKey(identifier);
+        return _modules.ContainsKey(identifier);
     }
 }

@@ -3,10 +3,8 @@ using Domain;
 using Domain.Buffers;
 using Domain.CallAgrements;
 using Domain.Result;
-using System;
 using System.Runtime.InteropServices;
 using System.Text;
-using System.Xml.Linq;
 using Tokens;
 
 namespace Compiler;
@@ -24,6 +22,8 @@ public class OCompiler
         _stringPool = new Dictionary<string, IntPtr>();
     }
 
+
+    // TODO Change call agreement system
     public CompilationResult<byte[]> COMPILE_MODULE(List<Statement> statements, Queue<ICallAgreement> callAgreementQueue)
     {
         byte[] code = [];
@@ -61,8 +61,6 @@ public class OCompiler
                 if (token is LiteralToken && ((LiteralToken)token).Type == LiteralType.LString)
                 {
                     buffers.Add(new LiteralBuffer(BitConverter.GetBytes(_stringPool[token.Value])));
-
-                    //buffers.Add(new LiteralBuffer(BitConverter.GetBytes(_stringPool[token.Value]).Reverse().ToArray()));
                 }
                 else
                 {
@@ -87,18 +85,21 @@ public class OCompiler
         return CompilationResult<byte[]>.Success(code);
     }
 
-    public void COMPILE_STRINGS(string[] strings, IntPtr memory, int lastByteIndex)
+    public int COMPILE_STRINGS(string[] strings, IntPtr memory, int lastByteIndex)
     {
         foreach (var str in strings)
         {
-            var bytes = ASCIIEncoding.ASCII.GetBytes(str);
-            Marshal.Copy(bytes, 0, memory + lastByteIndex, bytes.Length);
+            if (!_stringPool.ContainsKey(str))
+            {
+                var bytes = ASCIIEncoding.ASCII.GetBytes(str);
 
-            _stringPool.Add(str, memory + lastByteIndex);
+                Marshal.Copy(bytes, 0, memory + lastByteIndex, bytes.Length);
 
-            // lastByteIndex += bytes.Length;
-            //ulong reversedLastByteIndex = BitConverter.ToUInt64(BitConverter.GetBytes((ulong)lastByteIndex).Reverse().ToArray(), 0);
-            //_stringPool.Add(str, (IntPtr)reversedLastByteIndex);
+                _stringPool.Add(str, memory + (int)lastByteIndex);
+                lastByteIndex += bytes.Length;
+            }
         }
+
+        return lastByteIndex;
     }
 }

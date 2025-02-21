@@ -11,7 +11,7 @@ namespace CORuntime;
 
 public class COStartUp
 {
-    public void Start(ICPUFacade CPU, IOSAPI OSAPI)
+    public void Start(ICPUFacade CPU, IOSAPI OSAPI, string codePath)
     {
         var moduleTable = CreateModuleTable();
         var externModuleTable = new ExternModuleTable(OSAPI.GetOSLibrary());
@@ -28,11 +28,8 @@ public class COStartUp
 
         var moduleParser = new ModuleParser();
 
-        // TODO remove this shit
-        var testCodePath = "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\CORuntime\\CodeSample.ops";
-
         var runner = new CORunner(externModuleTable, moduleTable, tokenizer, compiler, moduleParser);
-        runner.Run(testCodePath);
+        runner.Run(codePath);
     }
 
     private Dictionary<string, IOInstruction> GetInstructions(

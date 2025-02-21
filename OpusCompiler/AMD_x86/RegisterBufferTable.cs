@@ -33,29 +33,17 @@ public class RegisterBufferTable : IPhysicalBufferTable
     {
         _buffers = new Dictionary<string, byte>();
 
+        _buffers.Add("RAX", RAX);
         _buffers.Add("RCX", RCX);
         _buffers.Add("RDX", RDX);
+        _buffers.Add("RBX", RBX);
+        _buffers.Add("RSP", RSP);
+        _buffers.Add("RBP", RBP);
+        _buffers.Add("RSI", RSI);
+        _buffers.Add("RDI", RDI);
         _buffers.Add("R8", R8);
         _buffers.Add("R9", R9);
-
-        _buffers.Add("RAX", RAX);
-        _buffers.Add("RBX", RBX);
-        _buffers.Add("RSP", RSP);
-        _buffers.Add("RBP", RBP);
-        _buffers.Add("RSI", RSI);
-        _buffers.Add("RDI", RDI);
         _buffers.Add("R10", R10);
-
-        /*_buffers.Add("RAX", RAX);
-        _buffers.Add("RCX", RCX);
-        _buffers.Add("RDX", RDX);
-        _buffers.Add("RBX", RBX);
-        _buffers.Add("RSP", RSP);
-        _buffers.Add("RBP", RBP);
-        _buffers.Add("RSI", RSI);
-        _buffers.Add("RDI", RDI);
-        _buffers.Add("R8", R8);
-        _buffers.Add("R9", R9);*/
     }
 
     public List<IBuffer> GetBuffers()

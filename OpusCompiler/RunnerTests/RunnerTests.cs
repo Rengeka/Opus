@@ -70,8 +70,8 @@ public class RunnerTests
         modules.Add(token1.Value, statements);
 
         _moduleParserMock.Setup(p => p.ParseModules(tokens)).Returns(modules);
-        _moduleTableMock.Setup(t => t.TryGetModule(token1.Value))
-            .Returns(new Tuple<ModuleState, List<Statement>>(ModuleState.ReadyToCompile, statements));
+        //_moduleTableMock.Setup(t => t.TryGetModule(token1.Value))
+            //.Returns(new Tuple<ModuleState, List<Statement>>(ModuleState.ReadyToCompile, statements));
 
         // Act
         _runner.Run(_codePath);

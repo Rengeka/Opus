@@ -1,5 +1,9 @@
 
 [<EntryPoint>]
+	call Print
+	ret
+
+[<Print>]
 
 	Ix00000001	-11
 	call GetStdHandle
@@ -12,6 +16,4 @@
 	
 	call WriteConsoleA
 
-	jmp
-	
 	ret

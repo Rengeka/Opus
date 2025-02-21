@@ -1,17 +1,18 @@
 ﻿using Domain;
 using Tokens;
+using Domain.Modules;
 
 namespace Parser;
 
 public class ModuleParser
 {
-    public Dictionary<string, List<Statement>> ParseModules(List<Token> tokens)
+    public Dictionary<string, Module> ParseModules(List<Token> tokens)
     {
-        var modules = new Dictionary<string, List<Statement>>();
+        var modules = new Dictionary<string, Module>();
 
         var currentModuleTokens = new List<Token>();
-        var currentModuleStatements = new List<Statement>();    
-        modules.Add("GLOBAL", currentModuleStatements);
+        var currentModuleStatements = new List<Statement>();
+        modules.Add("GLOBAL", new Module(currentModuleStatements));
 
         foreach (var token in tokens)
         {
@@ -23,7 +24,7 @@ public class ModuleParser
                 currentModuleStatements = new List<Statement>();
                 currentModuleTokens = new List<Token>();
 
-                modules.Add(token.Value, currentModuleStatements);
+                modules.Add(token.Value, new Module(currentModuleStatements));
             }
             else
             {
@@ -37,10 +38,32 @@ public class ModuleParser
             currentModuleStatements.AddRange(statements);
         }
 
+        CountReferences(modules);
+
         return modules;
     }
 
-    public List<Statement> ParseStatements(List<Token> tokens)
+    private void CountReferences(Dictionary<string, Module> modules)
+    {
+        foreach (var module in modules)
+        {
+            foreach (var statement in module.Value.Statements)
+            {
+                foreach (var token in statement.Tokens)
+                {
+                    if (token is IdentifierToken)
+                    {
+                        Module m;
+                        if (modules.TryGetValue((string)token.Value, out m)){
+                            m.References++;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    private List<Statement> ParseStatements(List<Token> tokens)
     {
         var statements = new List<Statement>();
         Statement currentStatement = new Statement();
@@ -59,7 +82,7 @@ public class ModuleParser
             }
             else
             {
-                currentStatement.AddToken(token);   
+                currentStatement.AddToken(token);
             }
         }
 
@@ -70,58 +93,4 @@ public class ModuleParser
 
         return statements;
     }
-
-    /*public Dictionary<string, List<Token>> ParseModules(List<Token> tokens)
-    {
-        var modules = new Dictionary<string, List<Statement>>();
-        
-        var currentModuleStatements = new List<Statement>();
-        modules.Add("GLOBAL", currentModuleStatements);
-
-        var isCurrentStatement = false;
-        Statement currentStatement;
-
-        Type nextExpected = null; 
-
-        foreach (Token token in tokens)
-        {
-            if (nextExpected == null && 
-                token.GetTokenType() == typeof(ModuleToken))
-            {
-                currentModuleStatements = new List<Statement>();
-                modules.Add(token.Value, currentModuleStatements);
-            }
-            else
-            {
-                if (isCurrentStatement)
-                {
-                    if (nextExpected != null && token.GetTokenType() == nextExpected)
-                    {
-
-                    }
-                }
-                else
-                {
-                    isCurrentStatement = true;
-                    currentStatement = new Statement(new List<Token>());
-                    currentModuleStatements.Add(currentStatement);
-
-                    if (token.GetTokenType() == typeof(InstructionToken)
-                        || token.GetTokenType() == typeof(DirectiveToken))
-                    {
-                        currentStatement.AddToken(token);
-
-                        nextExpected = token
-                    }
-
-              
-                }
-
-
-                currentModuleStatements.Add(token);
-            }
-        }
-
-        return modules;
-    }*/
 }

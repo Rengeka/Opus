@@ -1,0 +1,16 @@
+C:\Users\stasi\source\repos\Opus\OpusCompiler\WindowsAPI\bin\Release\net8.0\win-x64\WindowsAPI.deps.json
+C:\Users\stasi\source\repos\Opus\OpusCompiler\WindowsAPI\bin\Release\net8.0\win-x64\WindowsAPI.dll
+C:\Users\stasi\source\repos\Opus\OpusCompiler\WindowsAPI\bin\Release\net8.0\win-x64\WindowsAPI.pdb
+C:\Users\stasi\source\repos\Opus\OpusCompiler\WindowsAPI\bin\Release\net8.0\win-x64\Domain.dll
+C:\Users\stasi\source\repos\Opus\OpusCompiler\WindowsAPI\bin\Release\net8.0\win-x64\Domain.pdb
+C:\Users\stasi\source\repos\Opus\OpusCompiler\WindowsAPI\obj\Release\net8.0\win-x64\WindowsAPI.csproj.AssemblyReference.cache
+C:\Users\stasi\source\repos\Opus\OpusCompiler\WindowsAPI\obj\Release\net8.0\win-x64\WindowsAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\stasi\source\repos\Opus\OpusCompiler\WindowsAPI\obj\Release\net8.0\win-x64\WindowsAPI.AssemblyInfoInputs.cache
+C:\Users\stasi\source\repos\Opus\OpusCompiler\WindowsAPI\obj\Release\net8.0\win-x64\WindowsAPI.AssemblyInfo.cs
+C:\Users\stasi\source\repos\Opus\OpusCompiler\WindowsAPI\obj\Release\net8.0\win-x64\WindowsAPI.csproj.CoreCompileInputs.cache
+C:\Users\stasi\source\repos\Opus\OpusCompiler\WindowsAPI\obj\Release\net8.0\win-x64\WindowsAPI.sourcelink.json
+C:\Users\stasi\source\repos\Opus\OpusCompiler\WindowsAPI\obj\Release\net8.0\win-x64\WindowsAPI.csproj.Up2Date
+C:\Users\stasi\source\repos\Opus\OpusCompiler\WindowsAPI\obj\Release\net8.0\win-x64\WindowsAPI.dll
+C:\Users\stasi\source\repos\Opus\OpusCompiler\WindowsAPI\obj\Release\net8.0\win-x64\refint\WindowsAPI.dll
+C:\Users\stasi\source\repos\Opus\OpusCompiler\WindowsAPI\obj\Release\net8.0\win-x64\WindowsAPI.pdb
+C:\Users\stasi\source\repos\Opus\OpusCompiler\WindowsAPI\obj\Release\net8.0\win-x64\ref\WindowsAPI.dll

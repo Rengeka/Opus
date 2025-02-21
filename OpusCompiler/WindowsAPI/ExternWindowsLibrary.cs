@@ -1,5 +1,5 @@
-﻿using Domain;
-using Domain.CallAgrements;
+﻿using Domain.CallAgrements;
+using Domain.Modules;
 using System.Drawing;
 using System.Runtime.InteropServices;
 using WindowsAPI;
@@ -43,27 +43,32 @@ public class ExternWindowsLibrary : IExternModuleLibrary
         IntPtr writeConsole = GetProcAddress(kernel32, "WriteConsoleA");
         IntPtr getStdHandle = GetProcAddress(kernel32, "GetStdHandle");
         IntPtr allocConsole = GetProcAddress(kernel32, "AllocConsole");
+        IntPtr waitForSingleObject = GetProcAddress(kernel32, "WaitForSingleObject");
 
-        // Change naming
-        var reversedWriteConsole = BitConverter.GetBytes(writeConsole);
-        var reversedGetStdHandle = BitConverter.GetBytes(getStdHandle);
-        var reversedAllocConsole = BitConverter.GetBytes(allocConsole);
-
+        var writeConsoleBytes = BitConverter.GetBytes(writeConsole);
+        var getStdHandleBytes = BitConverter.GetBytes(getStdHandle);
+        var allocConsoleBytes = BitConverter.GetBytes(allocConsole);
+        var waitForSingleObjectBytes = BitConverter.GetBytes(waitForSingleObject);
 
         _modules.Add("WriteConsoleA", new ExternModule
         {
             CallAgreement = callAgreement,
-            Ptr = reversedWriteConsole,
+            Ptr = writeConsoleBytes,
         });
         _modules.Add("GetStdHandle", new ExternModule
         {
             CallAgreement = callAgreement,
-            Ptr = reversedGetStdHandle
+            Ptr = getStdHandleBytes
         });
         _modules.Add("AllocConsole", new ExternModule
         {
             CallAgreement = callAgreement,
-            Ptr = reversedAllocConsole
+            Ptr = allocConsoleBytes
+        });
+        _modules.Add("WaitForSingleObject", new ExternModule
+        {
+            CallAgreement = callAgreement,
+            Ptr = waitForSingleObjectBytes
         });
     }
 

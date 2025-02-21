@@ -4,13 +4,11 @@ using System.Runtime.InteropServices;
 using Compiler;
 using Parser;
 using Domain.CallAgrements;
-using System.Diagnostics;
-
-using Serilog; // TODO Add logs
+//using Serilog; // TODO Add logs
 using Tokens;
 using Domain;
-using System.Text;
-using static System.Runtime.InteropServices.JavaScript.JSType;
+using Domain.Modules;
+using Domain.Result;
 
 namespace CORuntime;
 
@@ -26,10 +24,15 @@ public class CORunner
     const uint MEM_COMMIT = 0x1000;             // Commit memory
     const uint MEM_RELEASE = 0x8000;
     const uint MEM_SIZE = 4096;                 // 4KB
-    const uint STRING_POOL_ADDRESS = 4000;
+    const int STRING_POOL_START = 4000;
     const uint MEM_RESERVE = 0x2000;
-
     const string ENTRY_POINT = "EntryPoint";
+
+    readonly nint CODE_START;
+
+    nint __CODE__END__;
+    int __STRING__POOL__END__ = STRING_POOL_START;
+
 
     // Importing Windows API functions
     [DllImport("kernel32.dll", SetLastError = true)]
@@ -37,13 +40,6 @@ public class CORunner
 
     [DllImport("kernel32.dll", SetLastError = true)]
     static extern bool VirtualFree(IntPtr lpAddress, uint dwSize, uint dwFreeType);
-
-    // Call load functions in memory and only then call them :(
-    [DllImport("kernel32.dll", SetLastError = true)]
-    public static extern IntPtr GetProcAddress(IntPtr hModule, string lpProcName);
-
-    [DllImport("kernel32.dll", SetLastError = true)]
-    public static extern IntPtr LoadLibrary(string lpFileName);
 
     [UnmanagedFunctionPointer(CallingConvention.Cdecl)]
     delegate void MachineCodeFunction();
@@ -60,6 +56,14 @@ public class CORunner
         _tokenizer = tokenizer;
         _compiler = compiler;
         _moduleParser = moduleParser;
+
+        CODE_START = VirtualAlloc(IntPtr.Zero, MEM_SIZE, MEM_COMMIT | MEM_RESERVE, PAGE_EXECUTE_READWRITE);
+        if (CODE_START == IntPtr.Zero)
+        {
+            throw new Exception("Failed to allocate memory");
+        }
+
+        __CODE__END__ = CODE_START;
     }
 
     public void Run(string filePath)
@@ -69,33 +73,66 @@ public class CORunner
 
         _moduleTable.AddModules(modules);
 
-        IntPtr codeBuffer = VirtualAlloc(IntPtr.Zero, MEM_SIZE, MEM_COMMIT | MEM_RESERVE, PAGE_EXECUTE_READWRITE);
-        if (codeBuffer == IntPtr.Zero)
-        {
-            throw new Exception("Failed to allocate memory");
-        }
+        Module module;
+        _moduleTable.TryGetModule("Print", out module);
+        CompileModule(/*CODE_BUFFER_START,*/ module);
+        //var result = CompileModule(CODE_BUFFER_START, module);
 
-        Tuple<ModuleState, List<Statement>> entryPoint;
-      
-        if (_moduleTable.TryGetModule(ENTRY_POINT, out entryPoint))
+        _moduleTable.TryGetModule(ENTRY_POINT, out module);
+        CompileModule(/*CODE_BUFFER_START,*/ module);
+        //var code = result.Value.Concat(CompileModule(CODE_BUFFER_START, module).Value).ToArray();
+
+        Execute(/*code,*/ CODE_START);
+
+        //CompileEntryPoint(codeBuffer);
+    }
+    /*
+        private void CompileEntryPoint(IntPtr codeBuffer)
         {
-            var strings = entryPoint.Item2
-            .SelectMany(s => s.Tokens.Where(t => t is LiteralToken token && token.Type == LiteralType.LString))
+            Module entryPoint;
+
+            if (_moduleTable.TryGetModule(ENTRY_POINT, out entryPoint))
+            {
+                var strings = entryPoint.Statements
+                .SelectMany(s => s.Tokens.Where(t => t is LiteralToken token && token.Type == LiteralType.LString))
+                .Select(t => t.Value)
+                .ToArray();
+
+                _compiler.COMPILE_STRINGS(strings, codeBuffer, ref STRING_POOL_ADDRESS);
+                var callAgreements = IDENTIFY_CALL_AGREEMENTS(entryPoint.Statements);
+
+                var code = _compiler.COMPILE_MODULE(entryPoint.Statements, callAgreements);
+
+                //var task = new Task(() => Execute(code.Value, codeBuffer));
+                //task.Wait();
+                Execute(code.Value, codeBuffer);
+            }
+        }*/
+
+    private CompilationResult<string> CompileModule(/*IntPtr codeBuffer,*/ Module module)
+    {
+        var strings = module.Statements
+        .SelectMany(s => 
+            s.Tokens.Where(t => 
+                t is LiteralToken token && token.Type == LiteralType.LString))
             .Select(t => t.Value)
             .ToArray();
 
-            _compiler.COMPILE_STRINGS(strings, codeBuffer, (int)STRING_POOL_ADDRESS);
-            var callAgreements = IDENTIFY_CALL_AGREEMENTS(entryPoint.Item2);
+        __STRING__POOL__END__ = _compiler.COMPILE_STRINGS(strings, CODE_START, __STRING__POOL__END__);
+        var callAgreements = IDENTIFY_CALL_AGREEMENTS(module.Statements);
 
-            var code = _compiler.COMPILE_MODULE(entryPoint.Item2, callAgreements);
+        var result = _compiler.COMPILE_MODULE(module.Statements, callAgreements);
+        Marshal.Copy(result.Value, 0, __CODE__END__, result.Value.Length);
 
-            Execute(code.Value, codeBuffer);
-        }
+        module.Ptr = BitConverter.GetBytes(__CODE__END__);
+        __CODE__END__ += (nint)result.Value.Length;
+
+        return CompilationResult<string>.Success("Module was compiled");
     }
 
-    private void Execute(byte[] code, IntPtr codeBuffer)
+    private void Execute(/*byte[] code, */IntPtr codeBuffer)
     {
-        Marshal.Copy(code, 0, codeBuffer, code.Length);
+        //Marshal.Copy(code, 0, codeBuffer, code.Length);
 
         unsafe
         {
@@ -117,7 +154,7 @@ public class CORunner
             }
         }
 
-        MachineCodeFunction func = 
+        MachineCodeFunction func =
             Marshal.GetDelegateForFunctionPointer<MachineCodeFunction>(codeBuffer);
 
         func();

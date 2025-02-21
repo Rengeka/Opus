@@ -1,0 +1,53 @@
+{
+  "tokenColors": [
+    {
+      "name": "Instructions",
+      "scope": "constant.instruction.opus",
+      "settings": {
+        "foreground": "#4EC9B0"
+      }
+    },
+    {
+      "name": "Keywords",
+      "scope": "keyword.control.opus",
+      "settings": {
+        "foreground": "#569CD6"
+      }
+    },
+    {
+      "name": "Module Brackets",
+      "scope": "punctuation.section.module.opus",
+      "settings": {
+        "foreground": "#808080"
+      }
+    },
+    {
+      "name": "Module Names",
+      "scope": "entity.name.module.opus",
+      "settings": {
+        "foreground": "#9CDCFE"
+      }
+    },
+    {
+      "name": "Strings",
+      "scope": "string.quoted.opus",
+      "settings": {
+        "foreground": "#CE9178"
+      }
+    },
+    {
+      "name": "Decimal Numbers",
+      "scope": "constant.numeric.decimal.opus",
+      "settings": {
+        "foreground": "#B5CEA8"
+      }
+    },
+    {
+      "name": "Hex Numbers",
+      "scope": "constant.numeric.hex.opus",
+      "settings": {
+        "foreground": "#B5CEA8"
+      }
+    }
+  ]
+}

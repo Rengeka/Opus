@@ -1,0 +1,16 @@
+C:\Users\stasi\source\repos\Opus\OpusCompiler\StateMachine\bin\Release\net8.0\win-x64\StateMachine.deps.json
+C:\Users\stasi\source\repos\Opus\OpusCompiler\StateMachine\bin\Release\net8.0\win-x64\StateMachine.dll
+C:\Users\stasi\source\repos\Opus\OpusCompiler\StateMachine\bin\Release\net8.0\win-x64\StateMachine.pdb
+C:\Users\stasi\source\repos\Opus\OpusCompiler\StateMachine\bin\Release\net8.0\win-x64\Domain.dll
+C:\Users\stasi\source\repos\Opus\OpusCompiler\StateMachine\bin\Release\net8.0\win-x64\Domain.pdb
+C:\Users\stasi\source\repos\Opus\OpusCompiler\StateMachine\obj\Release\net8.0\win-x64\StateMachine.csproj.AssemblyReference.cache
+C:\Users\stasi\source\repos\Opus\OpusCompiler\StateMachine\obj\Release\net8.0\win-x64\StateMachine.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\stasi\source\repos\Opus\OpusCompiler\StateMachine\obj\Release\net8.0\win-x64\StateMachine.AssemblyInfoInputs.cache
+C:\Users\stasi\source\repos\Opus\OpusCompiler\StateMachine\obj\Release\net8.0\win-x64\StateMachine.AssemblyInfo.cs
+C:\Users\stasi\source\repos\Opus\OpusCompiler\StateMachine\obj\Release\net8.0\win-x64\StateMachine.csproj.CoreCompileInputs.cache
+C:\Users\stasi\source\repos\Opus\OpusCompiler\StateMachine\obj\Release\net8.0\win-x64\StateMachine.sourcelink.json
+C:\Users\stasi\source\repos\Opus\OpusCompiler\StateMachine\obj\Release\net8.0\win-x64\StateMac.8F6A075C.Up2Date
+C:\Users\stasi\source\repos\Opus\OpusCompiler\StateMachine\obj\Release\net8.0\win-x64\StateMachine.dll
+C:\Users\stasi\source\repos\Opus\OpusCompiler\StateMachine\obj\Release\net8.0\win-x64\refint\StateMachine.dll
+C:\Users\stasi\source\repos\Opus\OpusCompiler\StateMachine\obj\Release\net8.0\win-x64\StateMachine.pdb
+C:\Users\stasi\source\repos\Opus\OpusCompiler\StateMachine\obj\Release\net8.0\win-x64\ref\StateMachine.dll
