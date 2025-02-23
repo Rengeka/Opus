@@ -1,6 +1,6 @@
 
 [<EntryPoint>]
-	call Print
+	call CallPrint
 	
 	ret
 
@@ -17,4 +17,9 @@
 	
 	call WriteConsoleA
 
+	ret
+
+[<CallPrint>]
+	call Print
+	
 	ret

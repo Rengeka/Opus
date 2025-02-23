@@ -49,7 +49,10 @@ public class ModuleTable
 
         if (notCompiled.Count() > 0)
         {
-            return notCompiled.MinBy(m => m.Value.ExternReferencess).Value;
+            return notCompiled
+                .OrderBy(m => m.Value.ExternReferencess)   
+                .ThenByDescending(m => m.Value.SelfReferencess) 
+                .First().Value;
         }
 
         return null;
