@@ -5,7 +5,7 @@ namespace AMD_x86.AMD_x86_Instructions;
 internal class x86_LEA_r16_32_64_m
 {
     private const byte lea_r16_32_64_m = 0x8D;
-    private const byte REX = 0x48; // TODO for now
+    private const byte REX = 0x48;
 
     /// <summary>
     /// Compile x86 lea r16/32/64 m

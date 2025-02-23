@@ -10,7 +10,7 @@ internal class x86_CALL
     /// <summary>
     /// Compile x86 call r16/32/64 m
     /// </summary>
-    /// <param name="parameters">Load Effective Address</param>
+    /// <param name="parameters">Call Procedure</param>
     /// <returns>Machine code for statement/returns>
     public static CompilationResult<byte[]> COMPILE(byte register)
     {

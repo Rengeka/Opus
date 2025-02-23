@@ -55,7 +55,8 @@ public class ModuleParser
                     {
                         Module m;
                         if (modules.TryGetValue((string)token.Value, out m)){
-                            m.References++;
+                            m.SelfReferencess++;
+                            module.Value.ExternReferencess++;
                         }
                     }
                 }

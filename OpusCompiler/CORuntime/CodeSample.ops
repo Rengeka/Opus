@@ -1,6 +1,7 @@
 
 [<EntryPoint>]
 	call Print
+	
 	ret
 
 [<Print>]

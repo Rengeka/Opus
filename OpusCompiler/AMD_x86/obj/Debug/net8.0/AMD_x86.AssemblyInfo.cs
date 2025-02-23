@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AMD_x86")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+53445ec603cec55576f0700aa452b24dd234ec39")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c2044ea24eef2bfa4107ac6d1116471220313675")]
 [assembly: System.Reflection.AssemblyProductAttribute("AMD_x86")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AMD_x86")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -19,13 +19,15 @@ public class CORunner
     private readonly Tokenizer _tokenizer;
     private readonly OCompiler _compiler;
     private readonly ModuleParser _moduleParser;
+    private readonly List<IntPtr> _events;
 
     const uint PAGE_EXECUTE_READWRITE = 0x40;   // Memory protection: executable, readable, writable
     const uint MEM_COMMIT = 0x1000;             // Commit memory
     const uint MEM_RELEASE = 0x8000;
     const uint MEM_SIZE = 4096;                 // 4KB
-    const int STRING_POOL_START = 4000;
     const uint MEM_RESERVE = 0x2000;
+    const int STRING_POOL_START = 4000;
+
     const string ENTRY_POINT = "EntryPoint";
 
     readonly nint CODE_START;
@@ -49,7 +51,8 @@ public class CORunner
         ModuleTable moduleTable,
         Tokenizer tokenizer,
         OCompiler compiler,
-        ModuleParser moduleParser)
+        ModuleParser moduleParser,
+        List<IntPtr> events)
     {
         _externModuleTable = externModuleTable;
         _moduleTable = moduleTable;
@@ -64,6 +67,32 @@ public class CORunner
         }
 
         __CODE__END__ = CODE_START;
+        _events = events;
+    }
+
+    public void StaticRun(string filePath)
+    {
+        var tokens = _tokenizer.TokenizeFromFile(filePath);
+        var modules = _moduleParser.ParseModules(tokens);
+
+        _moduleTable.AddModules(modules);
+
+        for (int i = 0; i < _moduleTable.CountModules(); i++)
+        {
+            var module = _moduleTable.GetUncompiledModuleWithLeastExternRefs();
+
+            if (module != null)
+            {
+                CompileModule(module);
+            }
+        }
+
+        Module entryPoint;
+
+        if (_moduleTable.TryGetModule(ENTRY_POINT, out entryPoint))
+        {
+            Execute(new IntPtr(BitConverter.ToInt64(entryPoint.Ptr, 0)));
+        }
     }
 
     public void Run(string filePath)
@@ -74,46 +103,25 @@ public class CORunner
         _moduleTable.AddModules(modules);
 
         Module module;
-        _moduleTable.TryGetModule("Print", out module);
-        CompileModule(/*CODE_BUFFER_START,*/ module);
-        //var result = CompileModule(CODE_BUFFER_START, module);
 
         _moduleTable.TryGetModule(ENTRY_POINT, out module);
-        CompileModule(/*CODE_BUFFER_START,*/ module);
+        CompileModule(module);
         //var code = result.Value.Concat(CompileModule(CODE_BUFFER_START, module).Value).ToArray();
 
-        Execute(/*code,*/ CODE_START);
+        var mainExecutionRuntime = new Task(() => { Execute(CODE_START); });
+        mainExecutionRuntime.Start();
 
-        //CompileEntryPoint(codeBuffer);
+        var jitRuntime = new Task(() => { }); 
+        jitRuntime.Start();
+
+        mainExecutionRuntime.Wait();
     }
-    /*
-        private void CompileEntryPoint(IntPtr codeBuffer)
-        {
-            Module entryPoint;
 
-            if (_moduleTable.TryGetModule(ENTRY_POINT, out entryPoint))
-            {
-                var strings = entryPoint.Statements
-                .SelectMany(s => s.Tokens.Where(t => t is LiteralToken token && token.Type == LiteralType.LString))
-                .Select(t => t.Value)
-                .ToArray();
-
-                _compiler.COMPILE_STRINGS(strings, codeBuffer, ref STRING_POOL_ADDRESS);
-                var callAgreements = IDENTIFY_CALL_AGREEMENTS(entryPoint.Statements);
-
-                var code = _compiler.COMPILE_MODULE(entryPoint.Statements, callAgreements);
-
-                //var task = new Task(() => Execute(code.Value, codeBuffer));
-                //task.Wait();
-                Execute(code.Value, codeBuffer);
-            }
-        }*/
-
-    private CompilationResult<string> CompileModule(/*IntPtr codeBuffer,*/ Module module)
+    private CompilationResult<string> CompileModule(Module module)
     {
         var strings = module.Statements
-        .SelectMany(s => 
-            s.Tokens.Where(t => 
+        .SelectMany(s =>
+            s.Tokens.Where(t =>
                 t is LiteralToken token && token.Type == LiteralType.LString))
             .Select(t => t.Value)
             .ToArray();
@@ -130,14 +138,12 @@ public class CORunner
         return CompilationResult<string>.Success("Module was compiled");
     }
 
-    private void Execute(/*byte[] code, */IntPtr codeBuffer)
+    private void Execute(IntPtr codeBuffer)
     {
-        //Marshal.Copy(code, 0, codeBuffer, code.Length);
-
         unsafe
         {
             // Convert the IntPtr to a pointer
-            byte* ptr = (byte*)codeBuffer.ToPointer();
+            byte* ptr = (byte*)CODE_START.ToPointer();
 
             // Create a Span from the pointer (use the correct size of the buffer)
             Span<byte> bufferSpan = new Span<byte>(ptr, 4096);

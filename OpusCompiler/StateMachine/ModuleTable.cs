@@ -37,4 +37,26 @@ public class ModuleTable
     {
         return _modules.ContainsKey(identifier);
     }
+
+    public Module GetUncompiledModuleWithLeastSelfRefs()
+    {
+        return _modules.Where(m => m.Value.Ptr != null).MinBy(m => m.Value.SelfReferencess).Value;
+    }
+
+    public Module GetUncompiledModuleWithLeastExternRefs()
+    {
+        var notCompiled = _modules.Where(m => m.Value.Ptr == null && m.Key != "GLOBAL");
+
+        if (notCompiled.Count() > 0)
+        {
+            return notCompiled.MinBy(m => m.Value.ExternReferencess).Value;
+        }
+
+        return null;
+    }
+
+    public int CountModules()
+    {
+        return _modules.Count;
+    }
 }

@@ -1,6 +1,5 @@
 ﻿using Domain.CallAgrements;
 using Domain.Modules;
-using System.Drawing;
 using System.Runtime.InteropServices;
 using WindowsAPI;
 
@@ -30,7 +29,7 @@ public class ExternWindowsLibrary : IExternModuleLibrary
     private static extern IntPtr GetModuleHandle(string lpModuleName);
 
     [DllImport("kernel32.dll", SetLastError = true)]
-    static extern IntPtr GetStdHandle(int nStdHandle);
+    private static extern IntPtr GetStdHandle(int nStdHandle);
 
     private readonly Dictionary<string, ExternModule> _modules;
 

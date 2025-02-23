@@ -22,7 +22,6 @@ public class OCompiler
         _stringPool = new Dictionary<string, IntPtr>();
     }
 
-
     // TODO Change call agreement system
     public CompilationResult<byte[]> COMPILE_MODULE(List<Statement> statements, Queue<ICallAgreement> callAgreementQueue)
     {
