@@ -1,0 +1,25 @@
+
+[<EntryPoint>]
+	call CallPrint
+	
+	ret
+
+[<Print>]
+
+	Ix00000001	-11
+	call GetStdHandle
+
+	Ix00000002
+
+	Ix0000000D
+	Ix00000001	"Hello, World!"
+	Ix00000001	13
+	
+	call WriteConsoleA
+
+	ret
+
+[<CallPrint>]
+	call Print
+	
+	ret

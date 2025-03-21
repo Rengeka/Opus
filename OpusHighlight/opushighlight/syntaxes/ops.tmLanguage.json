@@ -1,0 +1,42 @@
+{
+  "$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+  "name": "Opus",
+  "scopeName": "source.ops",
+  "patterns": [
+    {
+      "name": "keyword.control.opus",
+      "match": "\\b(rer|jmp|call)\\b"
+    },
+    {
+      "name": "constant.instruction.opus",
+      "match": "\\bIx[a-fA-F0-9]{8}\\b"
+    },
+    {
+      "name": "meta.module.opus",
+      "begin": "(\\[)<",
+      "end": ">(\\])",
+      "beginCaptures": {
+        "1": { "name": "punctuation.section.module.opus" },
+        "2": { "name": "punctuation.section.module.opus" }
+      },
+      "endCaptures": {
+        "1": { "name": "punctuation.section.module.opus" },
+        "2": { "name": "punctuation.section.module.opus" }
+      },
+      "patterns": [
+        {
+          "name": "entity.name.module.opus",
+          "match": "[A-Za-z][A-Za-z0-9]*"
+        }
+      ]
+    },
+    {
+      "name": "string.quoted.opus",
+      "match": "\"([^\"\\\\]|\\\\.)*\"|'([^'\\\\]|\\\\.)*'"
+    },
+    {
+      "name": "constant.numeric.decimal.opus",
+      "match": "\\b\\d+(\\.\\d+)?\\b"
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "CORuntime/1.0.0": {
+        "dependencies": {
+          "AMD_x86": "1.0.0",
+          "BufferTable": "1.0.0",
+          "Compiler": "1.0.0",
+          "Lexer": "1.0.0",
+          "Parser": "1.0.0",
+          "Serilog": "4.2.0",
+          "StateMachine": "1.0.0"
+        },
+        "runtime": {
+          "CORuntime.dll": {}
+        }
+      },
+      "Serilog/4.2.0": {
+        "runtime": {
+          "lib/net8.0/Serilog.dll": {
+            "assemblyVersion": "4.2.0.0",
+            "fileVersion": "4.2.0.0"
+          }
+        }
+      },
+      "AMD_x86/1.0.0": {
+        "dependencies": {
+          "Compiler": "1.0.0",
+          "Domain": "1.0.0"
+        },
+        "runtime": {
+          "AMD_x86.dll": {}
+        }
+      },
+      "BufferTable/1.0.0": {
+        "dependencies": {
+          "Domain": "1.0.0"
+        },
+        "runtime": {
+          "BufferTable.dll": {}
+        }
+      },
+      "Compiler/1.0.0": {
+        "dependencies": {
+          "BufferTable": "1.0.0",
+          "Domain": "1.0.0",
+          "StateMachine": "1.0.0"
+        },
+        "runtime": {
+          "Compiler.dll": {}
+        }
+      },
+      "Domain/1.0.0": {
+        "runtime": {
+          "Domain.dll": {}
+        }
+      },
+      "Lexer/1.0.0": {
+        "dependencies": {
+          "Domain": "1.0.0"
+        },
+        "runtime": {
+          "Lexer.dll": {}
+        }
+      },
+      "Parser/1.0.0": {
+        "dependencies": {
+          "Lexer": "1.0.0"
+        },
+        "runtime": {
+          "Parser.dll": {}
+        }
+      },
+      "StateMachine/1.0.0": {
+        "dependencies": {
+          "Domain": "1.0.0"
+        },
+        "runtime": {
+          "StateMachine.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CORuntime/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Serilog/4.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-gmoWVOvKgbME8TYR+gwMf7osROiWAURterc6Rt2dQyX7wtjZYpqFiA/pY6ztjGQKKV62GGCyOcmtP1UKMHgSmA==",
+      "path": "serilog/4.2.0",
+      "hashPath": "serilog.4.2.0.nupkg.sha512"
+    },
+    "AMD_x86/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BufferTable/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Compiler/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Lexer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Parser/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "StateMachine/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,16 @@
+C:\Users\stasi\source\repos\Opus\OpusCompiler\WindowsAPI\obj\Debug\net8.0\WindowsAPI.csproj.AssemblyReference.cache
+C:\Users\stasi\source\repos\Opus\OpusCompiler\WindowsAPI\obj\Debug\net8.0\WindowsAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\stasi\source\repos\Opus\OpusCompiler\WindowsAPI\obj\Debug\net8.0\WindowsAPI.AssemblyInfoInputs.cache
+C:\Users\stasi\source\repos\Opus\OpusCompiler\WindowsAPI\obj\Debug\net8.0\WindowsAPI.AssemblyInfo.cs
+C:\Users\stasi\source\repos\Opus\OpusCompiler\WindowsAPI\obj\Debug\net8.0\WindowsAPI.csproj.CoreCompileInputs.cache
+C:\Users\stasi\source\repos\Opus\OpusCompiler\WindowsAPI\obj\Debug\net8.0\WindowsAPI.sourcelink.json
+C:\Users\stasi\source\repos\Opus\OpusCompiler\WindowsAPI\bin\Debug\net8.0\WindowsAPI.deps.json
+C:\Users\stasi\source\repos\Opus\OpusCompiler\WindowsAPI\bin\Debug\net8.0\WindowsAPI.dll
+C:\Users\stasi\source\repos\Opus\OpusCompiler\WindowsAPI\bin\Debug\net8.0\WindowsAPI.pdb
+C:\Users\stasi\source\repos\Opus\OpusCompiler\WindowsAPI\bin\Debug\net8.0\Domain.dll
+C:\Users\stasi\source\repos\Opus\OpusCompiler\WindowsAPI\bin\Debug\net8.0\Domain.pdb
+C:\Users\stasi\source\repos\Opus\OpusCompiler\WindowsAPI\obj\Debug\net8.0\WindowsAPI.csproj.Up2Date
+C:\Users\stasi\source\repos\Opus\OpusCompiler\WindowsAPI\obj\Debug\net8.0\WindowsAPI.dll
+C:\Users\stasi\source\repos\Opus\OpusCompiler\WindowsAPI\obj\Debug\net8.0\refint\WindowsAPI.dll
+C:\Users\stasi\source\repos\Opus\OpusCompiler\WindowsAPI\obj\Debug\net8.0\WindowsAPI.pdb
+C:\Users\stasi\source\repos\Opus\OpusCompiler\WindowsAPI\obj\Debug\net8.0\ref\WindowsAPI.dll

@@ -1,0 +1,2 @@
+C:\Users\stasi\source\repos\Opus\OpusCompiler\ParserTests\bin\Release\net8.0\win-x64\publish\ParserTests.pdb
+C:\Users\stasi\source\repos\Opus\OpusCompiler\ParserTests\bin\Release\net8.0\win-x64\publish\ParserTests.exe

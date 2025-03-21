@@ -1,0 +1,2 @@
+C:\Users\stasi\source\repos\Opus\OpusCompiler\AMD_x86_Tests\bin\Release\net8.0\win-x64\publish\AMD_x86_Tests.pdb
+C:\Users\stasi\source\repos\Opus\OpusCompiler\AMD_x86_Tests\bin\Release\net8.0\win-x64\publish\AMD_x86_Tests.exe

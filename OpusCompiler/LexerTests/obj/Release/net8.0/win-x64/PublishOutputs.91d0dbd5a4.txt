@@ -1,0 +1,2 @@
+C:\Users\stasi\source\repos\Opus\OpusCompiler\LexerTests\bin\Release\net8.0\win-x64\publish\LexerTests.pdb
+C:\Users\stasi\source\repos\Opus\OpusCompiler\LexerTests\bin\Release\net8.0\win-x64\publish\LexerTests.exe

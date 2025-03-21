@@ -1,0 +1,2 @@
+C:\Users\stasi\source\repos\Opus\OpusCompiler\RunnerTests\bin\Release\net8.0\win-x64\publish\RunnerTests.pdb
+C:\Users\stasi\source\repos\Opus\OpusCompiler\RunnerTests\bin\Release\net8.0\win-x64\publish\RunnerTests.exe

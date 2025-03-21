@@ -1,0 +1,2 @@
+C:\Users\stasi\source\repos\Opus\OpusCompiler\EntryPoint\bin\Release\net8.0\win-x64\publish\EntryPoint.pdb
+C:\Users\stasi\source\repos\Opus\OpusCompiler\EntryPoint\bin\Release\net8.0\win-x64\publish\EntryPoint.exe

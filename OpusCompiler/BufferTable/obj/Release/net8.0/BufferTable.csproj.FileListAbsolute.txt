@@ -1,0 +1,16 @@
+C:\Users\stasi\source\repos\Opus\OpusCompiler\BufferTable\bin\Release\net8.0\BufferTable.deps.json
+C:\Users\stasi\source\repos\Opus\OpusCompiler\BufferTable\bin\Release\net8.0\BufferTable.dll
+C:\Users\stasi\source\repos\Opus\OpusCompiler\BufferTable\bin\Release\net8.0\BufferTable.pdb
+C:\Users\stasi\source\repos\Opus\OpusCompiler\BufferTable\bin\Release\net8.0\Domain.dll
+C:\Users\stasi\source\repos\Opus\OpusCompiler\BufferTable\bin\Release\net8.0\Domain.pdb
+C:\Users\stasi\source\repos\Opus\OpusCompiler\BufferTable\obj\Release\net8.0\BufferTable.csproj.AssemblyReference.cache
+C:\Users\stasi\source\repos\Opus\OpusCompiler\BufferTable\obj\Release\net8.0\BufferTable.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\stasi\source\repos\Opus\OpusCompiler\BufferTable\obj\Release\net8.0\BufferTable.AssemblyInfoInputs.cache
+C:\Users\stasi\source\repos\Opus\OpusCompiler\BufferTable\obj\Release\net8.0\BufferTable.AssemblyInfo.cs
+C:\Users\stasi\source\repos\Opus\OpusCompiler\BufferTable\obj\Release\net8.0\BufferTable.csproj.CoreCompileInputs.cache
+C:\Users\stasi\source\repos\Opus\OpusCompiler\BufferTable\obj\Release\net8.0\BufferTable.sourcelink.json
+C:\Users\stasi\source\repos\Opus\OpusCompiler\BufferTable\obj\Release\net8.0\BufferTa.97AE1E60.Up2Date
+C:\Users\stasi\source\repos\Opus\OpusCompiler\BufferTable\obj\Release\net8.0\BufferTable.dll
+C:\Users\stasi\source\repos\Opus\OpusCompiler\BufferTable\obj\Release\net8.0\refint\BufferTable.dll
+C:\Users\stasi\source\repos\Opus\OpusCompiler\BufferTable\obj\Release\net8.0\BufferTable.pdb
+C:\Users\stasi\source\repos\Opus\OpusCompiler\BufferTable\obj\Release\net8.0\ref\BufferTable.dll

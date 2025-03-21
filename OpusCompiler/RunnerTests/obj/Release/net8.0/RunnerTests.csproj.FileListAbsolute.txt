@@ -1,0 +1,7 @@
+C:\Users\stasi\source\repos\Opus\OpusCompiler\RunnerTests\bin\Release\net8.0\CoverletSourceRootsMapping_RunnerTests
+C:\Users\stasi\source\repos\Opus\OpusCompiler\RunnerTests\obj\Release\net8.0\RunnerTests.csproj.AssemblyReference.cache
+C:\Users\stasi\source\repos\Opus\OpusCompiler\RunnerTests\obj\Release\net8.0\RunnerTests.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\stasi\source\repos\Opus\OpusCompiler\RunnerTests\obj\Release\net8.0\RunnerTests.AssemblyInfoInputs.cache
+C:\Users\stasi\source\repos\Opus\OpusCompiler\RunnerTests\obj\Release\net8.0\RunnerTests.AssemblyInfo.cs
+C:\Users\stasi\source\repos\Opus\OpusCompiler\RunnerTests\obj\Release\net8.0\RunnerTests.csproj.CoreCompileInputs.cache
+C:\Users\stasi\source\repos\Opus\OpusCompiler\RunnerTests\obj\Release\net8.0\RunnerTests.sourcelink.json

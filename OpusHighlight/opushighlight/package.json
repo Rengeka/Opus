@@ -1,0 +1,36 @@
+{
+  "name": "opushighlight",
+  "displayName": "OpusHighLight",
+  "description": "A code highlighting extension for Opus language.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.97.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "ops",
+        "aliases": ["Opus", "ops"],
+        "extensions": [".ops"],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "ops",
+        "scopeName": "source.ops",
+        "path": "./syntaxes/ops.tmLanguage.json"
+      }
+    ],
+    "themes": [
+      {
+        "label": "Opus Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/opus-theme.json"
+      }
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+extern WriteConsole 
+extern GetStdHandle
+
+[<EntryPoint>]
+
+	Ix00000001 "Hello World!"	// Load value into AR1
+	call Console.Print
+
+	ret
+
+[<Console.Print>]
+
+	Ix00000003	0xFFFFFFF5		// Load value into local AR1
+	call GetStdHandle	
+
+	Ix00000002					// Reset local numeration of function argument buffer
+
+	Ix00000011	var0			// Create local 1 byte variable in stack				
+
+	Ix0000000D					// Load value from local O into local AR1
+	Ix00000010	0				// Load argument 0 of function into local AR2
+	Ix00000001	13				// Load 13 into local AR3
+	Ix00000001	var0			// Load adress of var0 into local AR4
+	Ix00000001  0				// Load 0 into reserved argument
+	call WriteConsole
+
+	Ix00000002					// Reset local numeration of function argument buffer
+	Ix00000006					// Pop var0 from the stack
+
+	ret
+
+
+
+
+
+
+
+
+
+
+
+

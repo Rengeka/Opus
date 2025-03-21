@@ -1,0 +1,16 @@
+C:\Users\stasi\source\repos\Opus\OpusCompiler\Lexer\bin\Release\net8.0\win-x64\Lexer.deps.json
+C:\Users\stasi\source\repos\Opus\OpusCompiler\Lexer\bin\Release\net8.0\win-x64\Lexer.dll
+C:\Users\stasi\source\repos\Opus\OpusCompiler\Lexer\bin\Release\net8.0\win-x64\Lexer.pdb
+C:\Users\stasi\source\repos\Opus\OpusCompiler\Lexer\bin\Release\net8.0\win-x64\Domain.dll
+C:\Users\stasi\source\repos\Opus\OpusCompiler\Lexer\bin\Release\net8.0\win-x64\Domain.pdb
+C:\Users\stasi\source\repos\Opus\OpusCompiler\Lexer\obj\Release\net8.0\win-x64\Lexer.csproj.AssemblyReference.cache
+C:\Users\stasi\source\repos\Opus\OpusCompiler\Lexer\obj\Release\net8.0\win-x64\Lexer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\stasi\source\repos\Opus\OpusCompiler\Lexer\obj\Release\net8.0\win-x64\Lexer.AssemblyInfoInputs.cache
+C:\Users\stasi\source\repos\Opus\OpusCompiler\Lexer\obj\Release\net8.0\win-x64\Lexer.AssemblyInfo.cs
+C:\Users\stasi\source\repos\Opus\OpusCompiler\Lexer\obj\Release\net8.0\win-x64\Lexer.csproj.CoreCompileInputs.cache
+C:\Users\stasi\source\repos\Opus\OpusCompiler\Lexer\obj\Release\net8.0\win-x64\Lexer.sourcelink.json
+C:\Users\stasi\source\repos\Opus\OpusCompiler\Lexer\obj\Release\net8.0\win-x64\Lexer.csproj.Up2Date
+C:\Users\stasi\source\repos\Opus\OpusCompiler\Lexer\obj\Release\net8.0\win-x64\Lexer.dll
+C:\Users\stasi\source\repos\Opus\OpusCompiler\Lexer\obj\Release\net8.0\win-x64\refint\Lexer.dll
+C:\Users\stasi\source\repos\Opus\OpusCompiler\Lexer\obj\Release\net8.0\win-x64\Lexer.pdb
+C:\Users\stasi\source\repos\Opus\OpusCompiler\Lexer\obj\Release\net8.0\win-x64\ref\Lexer.dll

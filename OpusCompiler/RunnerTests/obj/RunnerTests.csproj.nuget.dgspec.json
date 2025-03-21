@@ -1,0 +1,680 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\RunnerTests\\RunnerTests.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\AMD_x86\\AMD_x86.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\AMD_x86\\AMD_x86.csproj",
+        "projectName": "AMD_x86",
+        "projectPath": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\AMD_x86\\AMD_x86.csproj",
+        "packagesPath": "C:\\Users\\stasi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\AMD_x86\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\stasi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\Compiler\\Compiler.csproj": {
+                "projectPath": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\Compiler\\Compiler.csproj"
+              },
+              "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\Domain\\Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\BufferTable\\BufferTable.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\BufferTable\\BufferTable.csproj",
+        "projectName": "BufferTable",
+        "projectPath": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\BufferTable\\BufferTable.csproj",
+        "packagesPath": "C:\\Users\\stasi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\BufferTable\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\stasi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\Domain\\Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\Compiler\\Compiler.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\Compiler\\Compiler.csproj",
+        "projectName": "Compiler",
+        "projectPath": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\Compiler\\Compiler.csproj",
+        "packagesPath": "C:\\Users\\stasi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\Compiler\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\stasi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\BufferTable\\BufferTable.csproj": {
+                "projectPath": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\BufferTable\\BufferTable.csproj"
+              },
+              "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\Domain\\Domain.csproj"
+              },
+              "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\StateMachine\\StateMachine.csproj": {
+                "projectPath": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\StateMachine\\StateMachine.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\CORuntime\\CORuntime.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\CORuntime\\CORuntime.csproj",
+        "projectName": "CORuntime",
+        "projectPath": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\CORuntime\\CORuntime.csproj",
+        "packagesPath": "C:\\Users\\stasi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\CORuntime\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\stasi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\AMD_x86\\AMD_x86.csproj": {
+                "projectPath": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\AMD_x86\\AMD_x86.csproj"
+              },
+              "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\BufferTable\\BufferTable.csproj": {
+                "projectPath": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\BufferTable\\BufferTable.csproj"
+              },
+              "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\Compiler\\Compiler.csproj": {
+                "projectPath": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\Compiler\\Compiler.csproj"
+              },
+              "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\Lexer\\Lexer.csproj": {
+                "projectPath": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\Lexer\\Lexer.csproj"
+              },
+              "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\Parser\\Parser.csproj": {
+                "projectPath": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\Parser\\Parser.csproj"
+              },
+              "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\StateMachine\\StateMachine.csproj": {
+                "projectPath": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\StateMachine\\StateMachine.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Serilog": {
+              "target": "Package",
+              "version": "[4.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\Domain\\Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\Domain\\Domain.csproj",
+        "projectName": "Domain",
+        "projectPath": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\stasi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\stasi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\Lexer\\Lexer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\Lexer\\Lexer.csproj",
+        "projectName": "Lexer",
+        "projectPath": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\Lexer\\Lexer.csproj",
+        "packagesPath": "C:\\Users\\stasi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\Lexer\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\stasi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\Domain\\Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\Parser\\Parser.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\Parser\\Parser.csproj",
+        "projectName": "Parser",
+        "projectPath": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\Parser\\Parser.csproj",
+        "packagesPath": "C:\\Users\\stasi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\Parser\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\stasi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\Lexer\\Lexer.csproj": {
+                "projectPath": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\Lexer\\Lexer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\RunnerTests\\RunnerTests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\RunnerTests\\RunnerTests.csproj",
+        "projectName": "RunnerTests",
+        "projectPath": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\RunnerTests\\RunnerTests.csproj",
+        "packagesPath": "C:\\Users\\stasi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\RunnerTests\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\stasi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\Compiler\\Compiler.csproj": {
+                "projectPath": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\Compiler\\Compiler.csproj"
+              },
+              "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\CORuntime\\CORuntime.csproj": {
+                "projectPath": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\CORuntime\\CORuntime.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.8.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.20.72, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.5.3, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.5.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\StateMachine\\StateMachine.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\StateMachine\\StateMachine.csproj",
+        "projectName": "StateMachine",
+        "projectPath": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\StateMachine\\StateMachine.csproj",
+        "packagesPath": "C:\\Users\\stasi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\StateMachine\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\stasi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\stasi\\source\\repos\\Opus\\OpusCompiler\\Domain\\Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,7 @@
+C:\Users\stasi\source\repos\Opus\OpusCompiler\AMD_x86_Tests\bin\Release\net8.0\CoverletSourceRootsMapping_AMD_x86_Tests
+C:\Users\stasi\source\repos\Opus\OpusCompiler\AMD_x86_Tests\obj\Release\net8.0\AMD_x86_Tests.csproj.AssemblyReference.cache
+C:\Users\stasi\source\repos\Opus\OpusCompiler\AMD_x86_Tests\obj\Release\net8.0\AMD_x86_Tests.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\stasi\source\repos\Opus\OpusCompiler\AMD_x86_Tests\obj\Release\net8.0\AMD_x86_Tests.AssemblyInfoInputs.cache
+C:\Users\stasi\source\repos\Opus\OpusCompiler\AMD_x86_Tests\obj\Release\net8.0\AMD_x86_Tests.AssemblyInfo.cs
+C:\Users\stasi\source\repos\Opus\OpusCompiler\AMD_x86_Tests\obj\Release\net8.0\AMD_x86_Tests.csproj.CoreCompileInputs.cache
+C:\Users\stasi\source\repos\Opus\OpusCompiler\AMD_x86_Tests\obj\Release\net8.0\AMD_x86_Tests.sourcelink.json

@@ -1,0 +1,30 @@
+extern WriteConsole
+extern GetStdHandle
+
+[<EntryPoint>]
+
+	Ix00000001 "Hello World!"	
+	call Console.Print
+
+	ret
+
+[<Console.Print>]
+
+	Ix00000003	0xFFFFFFF5		
+	call GetStdHandle	
+
+	Ix00000002					
+
+	Ix00000011	var0			
+
+	Ix0000000D					
+	Ix00000010	0				
+	Ix00000001	13				
+	Ix00000001	var0			
+	Ix00000001  0				
+	call WriteConsole
+
+	Ix00000002					
+	Ix00000006					
+
+	ret
