@@ -4,7 +4,6 @@
 
 ### Virtual buffers
 
-
 Multifunctional buffers :
 
 ```
@@ -34,36 +33,34 @@ Implemented, but didn't pass all the tests - ❔
 ```
 
 ```
-✅ Ix00000000 - No operation
-✅ Ix00000001 [v] - Load value v into next function argument buffer
-✅ Ix00000002 - Reset numeration of function argument buffer
-✅ Ix00000003 [v] - Load value v into next multifunctional buffer
-
-
-❌ Ix00000006 [v] - Push value v on top of the stack
-❌ Ix00000007 - Pop value from stack
-❌ Ix00000008 - Pop value from stack into next mulifunctional buffer
-❌ Ix00000009 - Pop value from stack into next function argument buffer
-❌ Ix00000010 - Load value from multifunctional AC
-❌ Ix0000000A - Load value from output buffer into stack 
-❌ Ix0000000B - Load value from output buffer into next mulifunctional buffer
-❌ Ix0000000C - Set call agreement
-✅ Ix0000000D - Load value from output buffer into next function argument buffer
-❌ Ix0000000E [n] - Load function argument n on top of the stack
-❌ Ix0000000F [n] - Load function argument n into next mulifunctional buffer
-❌ Ix00000010 [n] - Load function argument n into next function argument buffer
-❔  Ix00000011 [n] - Create 1 or n byte variable into stack 
-❔  Ix00000012 [n] [v] - Set value v to variable n
+❌ Ix0000 - No operation
+❌ Ix0001 [v] - Load value v into next function argument buffer
+❌ Ix0002 - Reset numeration of function argument buffer
+❌ Ix0003 [v] - Load value v into next multifunctional buffer
+❌ Ix0006 [v] - Push value v on top of the stack
+❌ Ix0007 - Pop value from stack
+❌ Ix0008 - Pop value from stack into next mulifunctional buffer
+❌ Ix0009 - Pop value from stack into next function argument buffer
+❌ Ix0010 - Load value from multifunctional AC
+❌ Ix000A - Load value from output buffer into stack 
+❌ Ix000B - Load value from output buffer into next mulifunctional buffer
+❌ Ix000C - Set call agreement
+❌ Ix000D - Load value from output buffer into next function argument buffer
+❌ Ix000E [n] - Load function argument n on top of the stack
+❌ Ix000F [n] - Load function argument n into next mulifunctional buffer
+❌ Ix0010 [n] - Load function argument n into next function argument buffer
+❌ Ix0011 [n] - Create 1 or n byte variable into stack 
+❌ Ix0012 [n] [v] - Set value v to variable n
 ```
 
 ### Directives
 
 ```
-✅ call - Call function or procedure
+❌ call - Call function or procedure
 ❌ jmp - Jump to line
 ❌ extern - Define extern function
-✅ ret - Return from function or procedure
-✅ INT - Interrupt program exection (For simple debug)
+❌ ret - Return from function or procedure
+❌ INT - Interrupt program exection (For simple debug)
 ```
 
 ### Code Sample 1:
