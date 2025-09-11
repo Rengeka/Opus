@@ -20,7 +20,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\Opus.Grammar\Opus.Grammar.csproj" />
-    <ProjectReference Include="..\..\Opus.Parser\Opus.Lexer.fsproj" />
+    <ProjectReference Include="..\..\Opus.Lexer\Opus.Lexer.fsproj" />
   </ItemGroup>
 
 </Project>
