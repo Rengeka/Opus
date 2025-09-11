@@ -7,11 +7,15 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opus.Kernel", "Opus.Kernel\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opus.CLI", "Opus.CLI\Opus.CLI.csproj", "{C9B7F9CB-FA42-76C9-83E8-9115A0BA8675}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opus.AMDx86", "CPU\Opus.AMDx86\Opus.AMDx86.csproj", "{0F820191-88BF-311B-1C4D-9A465C402B89}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opus.x86", "CPU\Opus.AMDx86\Opus.x86.csproj", "{0F820191-88BF-311B-1C4D-9A465C402B89}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CPU", "CPU", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{747FB50F-A54C-4837-9B97-3DD25EFBA590}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opus.Contracts", "Opus.Contracts\Opus.Contracts.csproj", "{8F9E2E53-7EB2-4250-B387-4C53CC43B77E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OPUS.ARM", "OPUS.ARM\OPUS.ARM.csproj", "{DCD9D401-C297-4DDB-BD3E-742A99D8609E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,12 +35,21 @@ Global
 		{0F820191-88BF-311B-1C4D-9A465C402B89}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0F820191-88BF-311B-1C4D-9A465C402B89}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0F820191-88BF-311B-1C4D-9A465C402B89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F9E2E53-7EB2-4250-B387-4C53CC43B77E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F9E2E53-7EB2-4250-B387-4C53CC43B77E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F9E2E53-7EB2-4250-B387-4C53CC43B77E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F9E2E53-7EB2-4250-B387-4C53CC43B77E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCD9D401-C297-4DDB-BD3E-742A99D8609E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCD9D401-C297-4DDB-BD3E-742A99D8609E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCD9D401-C297-4DDB-BD3E-742A99D8609E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCD9D401-C297-4DDB-BD3E-742A99D8609E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{0F820191-88BF-311B-1C4D-9A465C402B89} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{DCD9D401-C297-4DDB-BD3E-742A99D8609E} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4CFACD97-B726-41CB-8811-A6E19AB08571}

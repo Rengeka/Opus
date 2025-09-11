@@ -1,8 +1,8 @@
-﻿using Opus.AMDx86.Enums;
+﻿using Opus.x86.Enums;
 
-namespace Opus.AMDx86.Extentions;
+namespace Opus.x86.Extentions;
 
-internal static class REXExtentions
+internal static class REX_Extentions
 {
     /// <summary>
     /// Encodes the REX flags into a full REX byte (with 0x40 prefix).

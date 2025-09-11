@@ -1,6 +1,6 @@
 ﻿using System.Diagnostics;
 
-namespace Opus.AMDx86.Enums;
+namespace Opus.x86.Enums;
 
 /// <summary>
 /// Represents the individual flags of the REX (Register Extension) prefix byte

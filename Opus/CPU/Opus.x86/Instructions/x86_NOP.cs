@@ -1,8 +1,13 @@
-﻿namespace Opus.AMDx86.Instructions;
+﻿using Opus.x86.Enums;
+using Opus.x86.Interfaces;
 
-internal class x86_NOP
+namespace Opus.x86.Instructions;
+
+internal class x86_NOP : IInstruction_x86
 {
     private const byte nop = 0x90;
+
+    public x86_CPUFeatures RequiredFeatures { get; } = x86_CPUFeatures.None;
 
     /// <summary>
     /// Compile x86 nop
@@ -11,6 +16,6 @@ internal class x86_NOP
     /// <returns>Machine code for statement/returns>
     public static byte[] Compile()
     {
-        throw new NotImplementedException();
+        return [nop];
     }
 }

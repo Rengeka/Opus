@@ -1,6 +1,6 @@
 ﻿using System.Runtime.InteropServices;
 
-namespace Opus.AMDx86.Structs;
+namespace Opus.x86.Structs;
 
 [StructLayout(LayoutKind.Explicit)]
 internal struct ModRM
