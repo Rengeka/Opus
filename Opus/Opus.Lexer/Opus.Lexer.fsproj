@@ -11,7 +11,7 @@
     <Compile Include="DirectiveLexer.fs" />
     <Compile Include="LiteralLexer.fs" />
     <Compile Include="InstructionLexer.fs" />
-    <Compile Include="OpusParser.fs" />
+    <Compile Include="OpusLexer.fs" />
   </ItemGroup>
 
   <ItemGroup>
@@ -19,6 +19,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Opus.Contracts\Opus.Contracts.csproj" />
     <ProjectReference Include="..\Opus.Grammar\Opus.Grammar.csproj" />
     <ProjectReference Include="..\Opus.Kernel\Opus.Kernel.csproj" />
   </ItemGroup>

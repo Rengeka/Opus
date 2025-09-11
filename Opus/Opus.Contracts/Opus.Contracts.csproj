@@ -6,4 +6,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Opus.Grammar\Opus.Grammar.csproj" />
+    <ProjectReference Include="..\Opus.Kernel\Opus.Kernel.csproj" />
+  </ItemGroup>
+
 </Project>

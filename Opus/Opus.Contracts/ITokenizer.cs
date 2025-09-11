@@ -1,5 +1,9 @@
-﻿namespace Opus.Contracts;
+﻿using Opus.Grammar;
+using Opus.Kernel.Result;
 
-internal interface ITokenizer
+namespace Opus.Contracts;
+
+public interface ITokenizer
 {
+    public CompilationResult<Token[]> Tokenize(string code);
 }
