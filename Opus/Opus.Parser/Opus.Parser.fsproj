@@ -6,7 +6,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="Enums\ParserSettings.fs" />
     <Compile Include="IdentifierParser.fs" />
     <Compile Include="ModuleParser.fs" />
     <Compile Include="DirectiveParser.fs" />
@@ -21,6 +20,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Opus.Grammar\Opus.Grammar.csproj" />
+    <ProjectReference Include="..\Opus.Kernel\Opus.Kernel.csproj" />
   </ItemGroup>
 
 </Project>

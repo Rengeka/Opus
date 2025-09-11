@@ -1,8 +1,16 @@
-﻿namespace Opus.Parser
+﻿module OpusParser
+
+open InstructionParser
 
 open FParsec
+open Opus.Grammar
+open Opus.Kernel.Result
+open Opus.Kernel.Enums
 
+let opusParser: Parser<Token list, unit> =
+    many (spaces >>. instrParser .>> spaces(* <|> directiveParser <|> moduleParser <|> literalParser*) )
 
-module Say =
-    let hello name =
-        printfn "Hello %s" name
+let parse (input: string) : CompilationResult<Token list> =
+    match run opusParser input with
+    | Success(tokens, _, _) -> CompilationResult<Token list>.Success(tokens)
+    | Failure(msg, _, _) -> CompilationResult<Token list>.Failure(msg, ErrorCode.UnknownToken)
