@@ -6,11 +6,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="IdentifierParser.fs" />
-    <Compile Include="ModuleParser.fs" />
-    <Compile Include="DirectiveParser.fs" />
-    <Compile Include="LiteralParser.fs" />
-    <Compile Include="InstructionParser.fs" />
+    <Compile Include="IdentifierLexer.fs" />
+    <Compile Include="ModuleLexer.fs" />
+    <Compile Include="DirectiveLexer.fs" />
+    <Compile Include="LiteralLexer.fs" />
+    <Compile Include="InstructionLexer.fs" />
     <Compile Include="OpusParser.fs" />
   </ItemGroup>
 

@@ -17,11 +17,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opus.x86", "CPU\Opus.x86\Op
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opus.ARM", "CPU\OPUS.ARM\Opus.ARM.csproj", "{02DB366D-C2F8-CEEF-8D88-E82DE30AC06F}"
 EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Opus.Parser", "Opus.Parser\Opus.Parser.fsproj", "{613EF152-C880-4925-AA0D-5212250BDB97}"
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Opus.Lexer", "Opus.Parser\Opus.Lexer.fsproj", "{613EF152-C880-4925-AA0D-5212250BDB97}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opus.Grammar", "Opus.Grammar\Opus.Grammar.csproj", "{7D3AA79E-A41E-4F21-8C6B-3EAD50EAAE81}"
 EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Opus.Parser.Tests", "Tests\Opus.Parser.Tests\Opus.Parser.Tests.fsproj", "{55D94F52-B8FC-3CC8-D0F9-C6DE05141077}"
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Opus.Lexer.Tests", "Tests\Opus.Parser.Tests\Opus.Lexer.Tests.fsproj", "{55D94F52-B8FC-3CC8-D0F9-C6DE05141077}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

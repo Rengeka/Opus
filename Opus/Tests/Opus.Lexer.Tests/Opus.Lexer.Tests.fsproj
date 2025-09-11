@@ -7,9 +7,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="OpusParserTests.fs" />
-    <Compile Include="InstructionParserTests.fs" />
-    <Compile Include="Program.fs" />
+    <Compile Include="OpusLexerTests.fs" />
+    <Compile Include="InstructionLexerTests.fs" />
   </ItemGroup>
 
   <ItemGroup>
@@ -21,7 +20,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\Opus.Grammar\Opus.Grammar.csproj" />
-    <ProjectReference Include="..\..\Opus.Parser\Opus.Parser.fsproj" />
+    <ProjectReference Include="..\..\Opus.Parser\Opus.Lexer.fsproj" />
   </ItemGroup>
 
 </Project>

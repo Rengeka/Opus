@@ -1,4 +1,4 @@
-﻿module IdentifierParser
+﻿module IdentifierLexer
 
 open Opus.Grammar
 open FParsec

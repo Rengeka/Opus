@@ -3,7 +3,7 @@
 open Xunit
 open FParsec
 open Opus.Grammar.Enums
-open InstructionParser
+open InstructionLexer
 
 [<Theory>]
 [<InlineData("Ix0001")>]
@@ -11,10 +11,10 @@ open InstructionParser
 [<InlineData("IxFFFF")>]
 [<InlineData("IxABCD")>]
 [<InlineData("Ix00FF")>]
-let ``Parse Instruction Should Be Equal`` (input: string) =
+let ``Tokenize Instruction Should Be Equal`` (input: string) =
     
     // Act
-    let result = run instrParser input
+    let result = run instrLexer input
 
     // Assert
     match result with
@@ -30,10 +30,10 @@ let ``Parse Instruction Should Be Equal`` (input: string) =
 [<InlineData("xFFFF")>]
 [<InlineData("")>]
 [<InlineData("Ix00JF")>]
-let ``Parse Instruction Should Be Error`` (input: string) =
+let ``Tokenize Instruction Should Be Error`` (input: string) =
     
     // Act
-    let result = run instrParser input
+    let result = run instrLexer input
 
     // Assert
     match result with
