@@ -1,5 +1,6 @@
 ﻿namespace Opus.Contracts;
 
-internal interface IPlatform
+public interface IStateMachine
 {
+
 }
