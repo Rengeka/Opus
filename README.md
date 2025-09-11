@@ -68,18 +68,18 @@ Implemented, but didn't pass all the tests - ❔
 ```
 [<EntryPoint>]
 
-	Ix00000001	-11                 - Load -11 in AR1 
-	call GetStdHandle               - Call GetStdFunction. Result of operation is in O
+	Ix0001	-11                 - Load -11 in AR1 
+	call GetStdHandle           - Call GetStdFunction. Result of operation is in O
 
-	Ix00000002                      - Reset AR buffer numeration
+	Ix0002                      - Reset AR buffer numeration
 
-	Ix0000000D                      - Load O value in AR1 
-	Ix00000001	"Hello, World!"     - Load "Hello, World!" in AR2 
-	Ix00000001	13                  - Load 13 in AR3 
+	Ix000D                      - Load O value in AR1 
+	Ix0001	"Hello, World!"     - Load "Hello, World!" in AR2 
+	Ix0001	13                  - Load 13 in AR3 
 	
-	call WriteConsoleA              - Call WriteConsole
+	call WriteConsoleA          - Call WriteConsole
 	
-	ret                             - Return
+	ret                         - Return
 ```
 
 ### Code Sample 2:
@@ -93,16 +93,38 @@ Implemented, but didn't pass all the tests - ❔
 
 [<Print>]
 
-	Ix00000001	-11
+	Ix0001	-11
 	call GetStdHandle
 
-	Ix00000002
+	Ix0002
 
-	Ix0000000D
-	Ix00000001	"Print function executed successfully"
-	Ix00000001	36
+	Ix000D
+	Ix0001	"Print function executed successfully"
+	Ix0001	36
 	
 	call WriteConsoleA
 	
 	ret
+```
+
+
+# Opus Assembly
+
+### Code Sample 1:
+
+```
+[<EntryPoint>]
+
+	LOAD		-11                 	- Load -11 in AR1 
+	call 		GetStdHandle            - Call GetStdFunction. Result of operation is in O
+
+	RESET                      			- Reset AR buffer numeration
+
+	LOAD_OUT 	 				    	- Load O value in AR1 
+	LOAD 		"Hello, World!" 	    - Load "Hello, World!" in AR2 
+	LOAD 		13                 		- Load 13 in AR3 
+	
+	call 		WriteConsoleA           - Call WriteConsole
+	
+	ret                             	- Return
 ```

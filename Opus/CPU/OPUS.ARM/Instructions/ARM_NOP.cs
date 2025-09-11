@@ -1,5 +1,6 @@
-﻿namespace OPUS.ARM.Instructions;
+﻿namespace Opus.ARM.Instructions;
 
 internal class ARM_NOP
 {
+
 }

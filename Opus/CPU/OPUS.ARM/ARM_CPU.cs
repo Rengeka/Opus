@@ -1,6 +1,6 @@
 ﻿using Opus.Contracts;
 
-namespace OPUS.ARM;
+namespace Opus.ARM;
 
 internal class ARM_CPU : ICPU
 {

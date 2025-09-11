@@ -1,4 +1,4 @@
-﻿namespace OPUS.ARM.Interfaces;
+﻿namespace Opus.ARM.Interfaces;
 
 internal interface IInstruction_ARM
 {
