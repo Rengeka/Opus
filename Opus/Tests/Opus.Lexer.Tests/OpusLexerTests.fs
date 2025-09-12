@@ -13,7 +13,7 @@ type OpusLexerTests() =
     [<Theory>]
     [<InlineData("Ix1A3F")>]
     [<InlineData("Ix000F Ix0ABC")>]
-    member _.``Tokenize Should Return Instruction Tokens`` (input: string) =
+    member _.``Tokenize Instructions Should Be Equal`` (input: string) =
         // Act
         let result = _lexer.Tokenize input
 
@@ -26,7 +26,7 @@ type OpusLexerTests() =
 
     [<Theory>]
     [<InlineData("Ix123J")>]
-    member _.``Tokenize Should Fail On Invalid Token`` (input: string) =
+    member _.``Tokenize Instructions Should Be Error`` (input: string) =
         
         // Act
         let result = _lexer.Tokenize input
@@ -35,3 +35,42 @@ type OpusLexerTests() =
         Assert.False(result.IsSucess, "Tokenizer should fail")
         Assert.NotNull(result.Error)
         Assert.Equal(ErrorCode.UnknownToken, result.Error.ErrorCode)
+
+
+    [<Theory>]
+    [<InlineData("123", "123")>]
+    [<InlineData("456.78", "456.78")>]
+    [<InlineData("\"hello\"", "hello")>]
+    member _.``Tokenize Literals Should Be Equal`` (input: string, expected: string) =
+
+        // Act
+        let result = _lexer.Tokenize input
+
+        // Assert
+        Assert.True(result.IsSucess, "Parser should succeed")
+        Assert.NotNull(result.Value)
+        Assert.Single(result.Value)
+        Assert.Equal(TokenType.Literal, result.Value.[0].Type)
+        Assert.Equal(expected, result.Value.[0].Value)
+
+    [<Theory>]
+    [<InlineData("Ix1A3F 123")>]
+    [<InlineData("\"test\" Ix0ABC")>]
+    [<InlineData("Ix000F 123.45 \"foo\"")>]
+    member _.``Tokenize Literals Should Be Ture`` (input: string) =
+
+        // Act
+        let result = _lexer.Tokenize input
+
+        // Assert
+        Assert.True(result.IsSucess, "Parser should succeed")
+        Assert.NotNull(result.Value)
+        Assert.NotEmpty(result.Value)
+
+        result.Value
+        |> Array.iter (fun t ->
+            Assert.True(
+                t.Type = TokenType.Instruction || t.Type = TokenType.Literal,
+                "Unexpected token type"
+            )
+        )
