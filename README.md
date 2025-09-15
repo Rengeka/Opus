@@ -2,6 +2,9 @@
 
 ### This language was developed as a Ciobanu Stanisalv's course work. Please enjoy coding :)
 
+# Notice 
+V2 Opus version is curently in development. You may check V1 by changing branch. It contains main functionality and is ready to run Hello World program
+
 ### Virtual buffers
 
 Multifunctional buffers :

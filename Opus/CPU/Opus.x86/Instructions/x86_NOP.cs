@@ -1,4 +1,5 @@
-﻿using Opus.x86.Enums;
+﻿using Opus.Kernel.Result;
+using Opus.x86.Enums;
 using Opus.x86.Interfaces;
 
 namespace Opus.x86.Instructions;
@@ -14,8 +15,8 @@ internal class x86_NOP : IInstruction_x86
     /// </summary>
     /// <param name="parameters">No operation</param>
     /// <returns>Machine code for statement/returns>
-    public static byte[] Compile()
+    public static Result<byte[]> Compile()
     {
-        return [nop];
+        return Result<byte[]>.Success([nop]);
     }
 }

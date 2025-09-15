@@ -5,5 +5,5 @@ namespace Opus.Contracts;
 
 public interface ITokenizer
 {
-    public CompilationResult<Token[]> Tokenize(string code);
+    public Result<Token[]> Tokenize(string code);
 }

@@ -1,5 +1,5 @@
 ﻿namespace Opus.Contracts;
 
-internal interface IBufferTable
+public interface IBufferTable
 {
 }

@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\Opus.Contracts\Opus.Contracts.csproj" />
+    <ProjectReference Include="..\..\Opus.Kernel\Opus.Kernel.csproj" />
   </ItemGroup>
 
 </Project>
